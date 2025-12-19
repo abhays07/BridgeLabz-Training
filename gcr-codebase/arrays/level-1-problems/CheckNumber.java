@@ -2,7 +2,7 @@
 // or zero by using an array
 import java.util.Scanner;
 
-class CheckNumber {
+class CheckNumber{
    public static void main(String[] args) {
       // Create a Scanner Object
       Scanner sc = new Scanner(System.in);
@@ -40,7 +40,7 @@ class CheckNumber {
 			System.out.println("The First element & last element are equal");
 		}
 		else {
-			System.out.println("The Last element is greater than First element");
+			System.out.println("The Last element is greater than the First element");
 		}
 		
 		
