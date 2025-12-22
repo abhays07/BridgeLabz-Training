@@ -2,6 +2,8 @@
 
 import java.util.*;
 public class CompleteTextLowercase {
+	
+	// Method to convert text to lowercase
 	public static String convertCompleteTextToLowercase(String s ) {
 		String lowercase = "";
 		for (int i=0; i<s.length(); i++){
