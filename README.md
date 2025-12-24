@@ -1,23 +1,33 @@
-## 📘 BridgeLabz Training – Java Programming ##
+## 📘 BridgeLabz Training – Java Programming
 
-# Week - 1 (Git, Github and Java Programming fundamentals # 
+---
 
-📅 Day 1 – Programming Prerequisites
+## 📅 Week 1: Git, GitHub & Java Programming Fundamentals
 
-  ~ Learned Java fundamentals and basic syntax
-  ~ Understood Java program structure
-  ~ Worked with variables and data types
-  ~ Practiced basic arithmetic operations
+### 🔹 Day 1: Programming Prerequisites
 
-  Created Java programs for:
-      - Sum calculation
-      - Average calculation
-      - Area calculation
-      - Volume calculation
-      - Understood user input handling
+* Learned Java fundamentals and basic syntax
+* Understood Java program structure
+* Worked with variables and data types
+* Practiced basic arithmetic operations
 
-  Followed proper naming conventions
-  
-  Learned Git & GitHub basics
-    - Created local Git repository
-    - Added, committed, and pushed files to GitHub
+#### 🧪 Java Programs Implemented
+
+* Sum calculation
+* Average calculation
+* Area calculation
+* Volume calculation
+* User input handling
+
+#### 🛠 Tools & Practices
+
+* Followed proper naming conventions
+* Learned Git and GitHub basics
+* Created a local Git repository
+* Added Java files to the repository
+* Committed changes using Git
+* Pushed local files to GitHub
+
+🔗 **Code Link (Day 1):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisites](https://github.com/abhays07/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisites)
+
