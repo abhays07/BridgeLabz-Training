@@ -58,11 +58,11 @@
 * Kept code organized using package structures
 * Ensured clean commits for better version control
 
----
-
 ### 🔗 Code Link (Week 2 – Day 1):
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobject](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobject)
+
+---
 
 ### 🔹 Day 2: Constructors, Access Modifiers & Class Design
 
@@ -138,10 +138,9 @@
 * Followed standard **Java naming conventions**
 * Organized code using meaningful **packages and class names**
 
----
-
 ### 🔗 Code Link (Week 2 – Day 2):
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javaconstructors](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javaconstructors)
 
+---
 
