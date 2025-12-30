@@ -335,7 +335,93 @@
 * Wrote clean, readable, and maintainable code
 * Used comments for better code understanding
 
----
-
 🔗 **Code Link (Day 8):**
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/core-java-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/core-java-practice/scenerio-based)
+
+---
+
+### 🔹 Day 9: Core Java Scenario-Based Problem Solving (Real-World Applications)
+
+* Solved **5 real-world scenario-based Core Java problems**
+* Strengthened problem-solving skills by translating real-life situations into Java programs
+* Practiced applying **control flow statements** in practical use cases
+* Improved logical thinking using loops, conditions, and menu-driven programs
+* Focused on writing clean, readable, and well-structured Java code
+
+---
+
+#### 🧪 Scenario-Based Problems Implemented
+
+* **Parking Lot Gate System 🚗**
+
+  * Developed a smart parking system with options:
+
+    * Park
+    * Exit
+    * Show Occupancy
+  * Used `switch-case` for menu-driven operations
+  * Implemented `while` loop to continue execution until the parking lot is full or the user exits
+
+* **Number Guessing Game 🎲**
+
+  * Designed a guessing game for numbers between 1 and 100
+  * Used `do-while` loop for repeated attempts
+  * Provided hints like **"Too High"** and **"Too Low"**
+  * Counted attempts and exited after **5 incorrect tries**
+
+* **Shopkeeper’s Discount Dashboard 🛍️**
+
+  * Accepted item prices using a `for` loop
+  * Applied discount logic using `if-else` conditions
+  * Used constants for discount rates
+  * Followed proper indentation and added meaningful comments
+
+* **School Bus Attendance System 🚍**
+
+  * Tracked attendance of 10 students
+  * Used **for-each loop** to iterate over student names
+  * Collected attendance status (Present / Absent)
+  * Displayed total present and absent count
+
+* **Phone Recharge Simulator 📱**
+
+  * Accepted mobile operator and recharge amount
+  * Used `switch-case` to display operator-specific offers
+  * Implemented loop for multiple recharges
+  * Displayed updated balance after each recharge
+
+---
+
+#### 🛠 Concepts & Tools Used
+
+* **Core Java Concepts**
+
+  * Conditional statements (`if-else`, `switch`)
+  * Looping constructs (`for`, `while`, `do-while`, `for-each`)
+  * Constants and variables
+  * Menu-driven programs
+* **Eclipse IDE**
+
+  * Class creation and execution
+  * Debugging and testing logic
+* **Git & GitHub**
+
+  * Continued work on `core-java-practice` branch
+  * Added scenario-based programs
+  * Maintained clean and structured commits
+
+---
+
+#### 🛠 Best Practices Followed
+
+* Converted real-world problems into logical Java solutions
+* Used meaningful variable, method, and class names
+* Followed proper indentation and coding standards
+* Avoided hard-coded values by using constants
+* Added comments to explain logic clearly
+* Ensured user-friendly input and output flow
+
+🔗 **Code Link (Day 9):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/core-java-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/core-java-practice/scenerio-based)
+
+---
