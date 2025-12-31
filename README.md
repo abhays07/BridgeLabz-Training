@@ -297,3 +297,36 @@ BridgeLabz-Training/
 
 ---
 
+## 🔹 Day 4: Object Modeling & Scenario-Based Java Practice
+
+## 📌 Core Java – Scenario-Based Practice
+
+**Branch:** `core-java-practice`
+
+* Solved real-world, menu-driven Java programs
+* Strengthened logic using arrays, loops, and conditional statements
+* Applied `if`, `switch`, `break`, and `continue` effectively
+* Followed modular, readable, and beginner-friendly coding practices
+
+🔗 **Code Link:**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/core-java-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/core-java-practice/scenerio-based)
+
+---
+
+## 📌 Java OOP – Object Modeling & Relationships
+
+**Branch:** `java-oops-practice`
+
+* Implemented key object relationships:
+
+  * Aggregation
+  * Association
+  * Composition
+* Practiced object communication using method calls
+* Understood object life-cycle dependency
+* Modeled real-world systems using multiple interacting classes
+
+🔗 **Code Link:**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling)
+
+
