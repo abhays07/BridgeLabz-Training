@@ -25,6 +25,7 @@ class Department {
         System.out.println("\nDepartment: " + departmentName);
         System.out.println("----------------------");
 
+        // for loop to print the employee details
         for (Employee emp : employees) {
             emp.displayEmployee();
             System.out.println();
