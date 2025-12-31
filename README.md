@@ -503,7 +503,7 @@
 * Followed proper indentation and coding standards
 * Avoided hard-coded values
 * Wrote modular and readable code
-* Ensured smooth user input and output handling
+* Ensured smooth user input and output handling.
 
 🔗 **Code Link (Day 10):**
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/core-java-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/core-java-practice/scenerio-based)
