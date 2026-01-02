@@ -381,3 +381,328 @@
 🔗 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling)
 
 ---
+
+## 🔹 Day 5: Inheritance, Types of Inheritance & Polymorphism (OOP)
+
+---
+
+## 📚 Learning Objectives
+
+* Understood the concept of **Inheritance** and its role in code reusability and hierarchy
+* Learned how subclasses inherit properties and behaviors from superclasses
+* Practiced **method overriding** and runtime polymorphism
+* Explored different **types of inheritance in Java**:
+
+  * Single Inheritance
+  * Multilevel Inheritance
+  * Hierarchical Inheritance
+  * Hybrid Inheritance (using interfaces)
+* Applied **best practices and design principles** while using inheritance
+* Strengthened understanding of **`is-a` relationship** in object-oriented design
+
+---
+
+## 🧬 Inheritance Concepts Covered
+
+### 🔹 Basic Inheritance & Polymorphism
+
+* Superclass and subclass relationship
+* Method overriding using `@Override`
+* Dynamic method dispatch using superclass references
+
+---
+
+## 🧪 Assisted Practice Problems Implemented
+
+### 1️⃣ Animal Hierarchy
+
+* Superclass: `Animal`
+* Subclasses: `Dog`, `Cat`, `Bird`
+* Overridden `makeSound()` method in each subclass
+* Demonstrated polymorphism through common superclass reference
+
+---
+
+### 2️⃣ Employee Management System
+
+* Superclass: `Employee`
+* Subclasses:
+
+  * `Manager`
+  * `Developer`
+  * `Intern`
+* Each subclass had unique attributes
+* Overrode `displayDetails()` method
+* Practiced inheritance with specialization
+
+---
+
+### 3️⃣ Vehicle and Transport System
+
+* Superclass: `Vehicle`
+* Subclasses:
+
+  * `Car`
+  * `Truck`
+  * `Motorcycle`
+* Demonstrated:
+
+  * Shared attributes (`maxSpeed`, `fuelType`)
+  * Unique subclass attributes
+* Used polymorphism by storing different objects in a `Vehicle` array
+
+---
+
+## 🧪 Single Inheritance Practice
+
+### 1️⃣ Library Management (Book → Author)
+
+* `Book` as superclass
+* `Author` as subclass
+* Extended superclass with additional attributes
+* Displayed combined book and author information
+
+### 2️⃣ Smart Home Devices
+
+* Superclass: `Device`
+* Subclass: `Thermostat`
+* Added specific behavior while keeping base class generic
+* Demonstrated clean single inheritance design
+
+---
+
+## 🧪 Multilevel Inheritance Practice
+
+### 1️⃣ Online Retail Order Management
+
+* `Order` → `ShippedOrder` → `DeliveredOrder`
+* Each level added new attributes
+* Implemented `getOrderStatus()` to reflect inheritance depth
+
+### 2️⃣ Educational Course Hierarchy
+
+* `Course` → `OnlineCourse` → `PaidOnlineCourse`
+* Demonstrated gradual extension of behavior and data
+* Showed how complexity builds across inheritance levels
+
+---
+
+## 🧪 Hierarchical Inheritance Practice
+
+### 1️⃣ Bank Account Types
+
+* Superclass: `BankAccount`
+* Subclasses:
+
+  * `SavingsAccount`
+  * `CheckingAccount`
+  * `FixedDepositAccount`
+* Each subclass implemented its own account-specific behavior
+
+### 2️⃣ School System Roles
+
+* Superclass: `Person`
+* Subclasses:
+
+  * `Teacher`
+  * `Student`
+  * `Staff`
+* Each subclass described its role using overridden methods
+
+---
+
+## 🧪 Hybrid Inheritance (Using Interfaces)
+
+### 1️⃣ Restaurant Management System
+
+* Superclass: `Person`
+* Subclasses: `Chef`, `Waiter`
+* Interface: `Worker`
+* Combined inheritance and interface implementation
+* Demonstrated multiple behaviors using interfaces
+
+### 2️⃣ Vehicle Management System
+
+* Superclass: `Vehicle`
+* Subclasses: `ElectricVehicle`, `PetrolVehicle`
+* Interface: `Refuelable`
+* Used interfaces to simulate multiple inheritance
+
+---
+
+## 🛠 Best Practices & Design Principles Followed
+
+* Followed **`is-a` relationship** strictly
+* Applied **Liskov Substitution Principle**
+* Avoided deep inheritance hierarchies
+* Used `@Override` annotation consistently
+* Preferred **interfaces** for multiple inheritance
+* Avoided unnecessary method overriding
+* Used `super()` to invoke superclass constructors
+* Maintained **low coupling and high cohesion**
+* Favored **composition over inheritance** where appropriate
+
+---
+
+## 🛠 Tools & Concepts Used
+
+* **Java (OOP Concepts)**
+
+  * Inheritance
+  * Polymorphism
+  * Method overriding
+  * Interfaces
+  * Abstract thinking in design
+* **Eclipse IDE**
+
+  * Multi-class project structure
+  * Debugging inheritance behavior
+* **Git & GitHub**
+
+  * Continued work on `java-oops-practice` branch
+  * Structured commits with clear intent
+
+## 🔗 Code Link (Week 2 – Day 5)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance)
+
+---
+
+## 🔹 Day 6: Encapsulation, Polymorphism, Abstract Classes & Interfaces (OOP)
+
+
+## 📚 Learning Objectives
+
+* Strengthened understanding of **Encapsulation** for data security and integrity
+* Practiced **Polymorphism** using abstract classes and interfaces
+* Learned to design systems using **abstract classes** for shared behavior
+* Used **interfaces** to define contracts and support multiple behaviors
+* Applied **best programming practices** while designing scalable OOP solutions
+* Improved ability to model **real-world systems** using clean object-oriented design
+
+---
+
+## 🔐 Encapsulation Practices Applied
+
+* Used `private` access modifiers for sensitive class fields
+* Exposed data using **public getters and setters**
+* Added **validation logic** inside setter methods
+* Used `final` fields for immutable data where applicable
+* Followed standard naming conventions (`getX()`, `setX()`)
+
+---
+
+## 🔄 Polymorphism Concepts Practiced
+
+* Programmed using **superclass / interface references**
+* Implemented **method overriding** while maintaining base class contracts
+* Avoided explicit type casting by relying on polymorphic behavior
+* Used dynamic method dispatch to handle multiple object types uniformly
+* Kept inheritance hierarchies **shallow and maintainable**
+
+---
+
+## 🧩 Abstract Classes & Interfaces
+
+* Used **abstract classes** to define shared state and behavior
+* Deferred implementation details to subclasses
+* Used **interfaces** to define additional capabilities and contracts
+* Combined abstract classes and interfaces for flexible design
+* Followed best practices to avoid tight coupling
+
+---
+
+## 🧪 Scenario-Based Problems Implemented
+
+### 1️⃣ Employee Management System
+
+* Abstract class `Employee` with salary calculation logic
+* Subclasses: `FullTimeEmployee`, `PartTimeEmployee`
+* Interface `Department`
+* Demonstrated encapsulation and polymorphism
+
+### 2️⃣ E-Commerce Platform
+
+* Abstract class `Product`
+* Subclasses: `Electronics`, `Clothing`, `Groceries`
+* Interface `Taxable`
+* Calculated final price using polymorphism
+
+### 3️⃣ Vehicle Rental System
+
+* Abstract class `Vehicle`
+* Subclasses: `Car`, `Bike`, `Truck`
+* Interface `Insurable`
+* Calculated rental and insurance costs dynamically
+
+### 4️⃣ Banking System
+
+* Abstract class `BankAccount`
+* Subclasses: `SavingsAccount`, `CurrentAccount`
+* Interface `Loanable`
+* Polymorphic interest calculation
+
+### 5️⃣ Library Management System
+
+* Abstract class `LibraryItem`
+* Subclasses: `Book`, `Magazine`, `DVD`
+* Interface `Reservable`
+* Managed different item types using a common reference
+
+### 6️⃣ Online Food Delivery System
+
+* Abstract class `FoodItem`
+* Subclasses: `VegItem`, `NonVegItem`
+* Interface `Discountable`
+* Demonstrated encapsulation and order processing via polymorphism
+
+### 7️⃣ Hospital Patient Management System
+
+* Abstract class `Patient`
+* Subclasses: `InPatient`, `OutPatient`
+* Interface `MedicalRecord`
+* Protected sensitive medical data using encapsulation
+
+### 8️⃣ Ride-Hailing Application
+
+* Abstract class `Vehicle`
+* Subclasses: `Car`, `Bike`, `Auto`
+* Interface `GPS`
+* Dynamic fare calculation using polymorphism
+
+---
+
+## 🛠 Tools & Concepts Used
+
+* **Java (OOP Concepts)**
+
+  * Encapsulation
+  * Polymorphism
+  * Abstract classes
+  * Interfaces
+  * Method overriding
+* **Eclipse IDE**
+
+  * Multi-class project handling
+  * Debugging polymorphic behavior
+* **Git & GitHub**
+
+  * Continued work on `java-oops-practice` branch
+  * Clean, structured commits
+
+---
+
+## ✅ Best Practices Followed
+
+* Ensured data security using encapsulation
+* Followed **“program to an interface”** principle
+* Avoided deep inheritance hierarchies
+* Maintained low coupling and high cohesion
+* Used meaningful class, method, and variable names
+* Designed systems for scalability and maintainability
+
+## 🔗 Code Link (Week 2 – Day 6)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism)
+
+---
