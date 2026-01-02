@@ -329,4 +329,56 @@ BridgeLabz-Training/
 🔗 **Code Link:**
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling)
 
+---
+
+### 🔹 Day 5: Inheritance & Polymorphism (OOP)
+
+* Worked on **`java-oops-practice` branch**
+* Introduced **Inheritance** to promote code reusability and class hierarchy
+* Practiced **method overriding** and **runtime polymorphism**
+* Implemented multiple **types of inheritance**:
+
+  * Single
+  * Multilevel
+  * Hierarchical
+  * Hybrid (using interfaces)
+* Applied correct **`is-a` relationships** in real-world models
+* Followed inheritance **best practices** to maintain clean and maintainable design
+
+**Programs Implemented**
+
+* Animal Hierarchy
+* Employee Management System
+* Vehicle & Transport System
+* Banking Account Types
+* School Roles System
+* Hybrid inheritance systems using interfaces
+
+🔗 **Code Link (Week 2 – Day 5):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance)
+
+---
+
+### 🔹 Day 6: Encapsulation, Polymorphism, Abstract Classes & Interfaces
+
+* Worked on **`java-oops-practice` branch**
+* Strengthened **Encapsulation** using private fields and controlled access
+* Used **Abstract Classes** for shared structure and partial implementation
+* Implemented **Interfaces** to define contracts and multiple behaviors
+* Applied **Polymorphism** using abstract class and interface references
+* Designed scalable **real-world OOP systems** following industry practices
+
+**Programs Implemented**
+
+* Employee Management System
+* E-Commerce Platform
+* Vehicle Rental System
+* Banking System
+* Library Management System
+* Online Food Delivery System
+* Hospital Patient Management
+* Ride-Hailing Application
+
+🔗 **Code Link (Week 2 – Day 6):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism)
 
