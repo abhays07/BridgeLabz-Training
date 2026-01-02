@@ -567,3 +567,142 @@
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance)
 
 ---
+
+## 🔹 Day 6: Encapsulation, Polymorphism, Abstract Classes & Interfaces (OOP)
+
+
+## 📚 Learning Objectives
+
+* Strengthened understanding of **Encapsulation** for data security and integrity
+* Practiced **Polymorphism** using abstract classes and interfaces
+* Learned to design systems using **abstract classes** for shared behavior
+* Used **interfaces** to define contracts and support multiple behaviors
+* Applied **best programming practices** while designing scalable OOP solutions
+* Improved ability to model **real-world systems** using clean object-oriented design
+
+---
+
+## 🔐 Encapsulation Practices Applied
+
+* Used `private` access modifiers for sensitive class fields
+* Exposed data using **public getters and setters**
+* Added **validation logic** inside setter methods
+* Used `final` fields for immutable data where applicable
+* Followed standard naming conventions (`getX()`, `setX()`)
+
+---
+
+## 🔄 Polymorphism Concepts Practiced
+
+* Programmed using **superclass / interface references**
+* Implemented **method overriding** while maintaining base class contracts
+* Avoided explicit type casting by relying on polymorphic behavior
+* Used dynamic method dispatch to handle multiple object types uniformly
+* Kept inheritance hierarchies **shallow and maintainable**
+
+---
+
+## 🧩 Abstract Classes & Interfaces
+
+* Used **abstract classes** to define shared state and behavior
+* Deferred implementation details to subclasses
+* Used **interfaces** to define additional capabilities and contracts
+* Combined abstract classes and interfaces for flexible design
+* Followed best practices to avoid tight coupling
+
+---
+
+## 🧪 Scenario-Based Problems Implemented
+
+### 1️⃣ Employee Management System
+
+* Abstract class `Employee` with salary calculation logic
+* Subclasses: `FullTimeEmployee`, `PartTimeEmployee`
+* Interface `Department`
+* Demonstrated encapsulation and polymorphism
+
+### 2️⃣ E-Commerce Platform
+
+* Abstract class `Product`
+* Subclasses: `Electronics`, `Clothing`, `Groceries`
+* Interface `Taxable`
+* Calculated final price using polymorphism
+
+### 3️⃣ Vehicle Rental System
+
+* Abstract class `Vehicle`
+* Subclasses: `Car`, `Bike`, `Truck`
+* Interface `Insurable`
+* Calculated rental and insurance costs dynamically
+
+### 4️⃣ Banking System
+
+* Abstract class `BankAccount`
+* Subclasses: `SavingsAccount`, `CurrentAccount`
+* Interface `Loanable`
+* Polymorphic interest calculation
+
+### 5️⃣ Library Management System
+
+* Abstract class `LibraryItem`
+* Subclasses: `Book`, `Magazine`, `DVD`
+* Interface `Reservable`
+* Managed different item types using a common reference
+
+### 6️⃣ Online Food Delivery System
+
+* Abstract class `FoodItem`
+* Subclasses: `VegItem`, `NonVegItem`
+* Interface `Discountable`
+* Demonstrated encapsulation and order processing via polymorphism
+
+### 7️⃣ Hospital Patient Management System
+
+* Abstract class `Patient`
+* Subclasses: `InPatient`, `OutPatient`
+* Interface `MedicalRecord`
+* Protected sensitive medical data using encapsulation
+
+### 8️⃣ Ride-Hailing Application
+
+* Abstract class `Vehicle`
+* Subclasses: `Car`, `Bike`, `Auto`
+* Interface `GPS`
+* Dynamic fare calculation using polymorphism
+
+---
+
+## 🛠 Tools & Concepts Used
+
+* **Java (OOP Concepts)**
+
+  * Encapsulation
+  * Polymorphism
+  * Abstract classes
+  * Interfaces
+  * Method overriding
+* **Eclipse IDE**
+
+  * Multi-class project handling
+  * Debugging polymorphic behavior
+* **Git & GitHub**
+
+  * Continued work on `java-oops-practice` branch
+  * Clean, structured commits
+
+---
+
+## ✅ Best Practices Followed
+
+* Ensured data security using encapsulation
+* Followed **“program to an interface”** principle
+* Avoided deep inheritance hierarchies
+* Maintained low coupling and high cohesion
+* Used meaningful class, method, and variable names
+* Designed systems for scalability and maintainability
+
+## 🔗 Code Link (Week 2 – Day 6)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism)
+
+---
