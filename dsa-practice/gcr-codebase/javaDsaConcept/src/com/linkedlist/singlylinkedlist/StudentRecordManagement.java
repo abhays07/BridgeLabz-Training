@@ -159,8 +159,8 @@ public class StudentRecordManagement {
         StudentRecordManagement s = new StudentRecordManagement();
 
         s.insertAtBeginning(1, "Abhay", 22, 'A');
-        s.insertAtPosition(2, "Shifa", 19, 'B', 2);
-        s.insertAtPosition(3, "Aman", 21, 'F', 3);
+        s.insertAtPosition( 2,2, "Shifa", 19, 'B');
+        s.insertAtPosition(3, 3, "Aman", 21, 'F');
         s.insertAtEnd(4, "Tepra", 22, 'C');
 
         s.delete(3);
