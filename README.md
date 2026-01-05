@@ -382,3 +382,41 @@ BridgeLabz-Training/
 🔗 **Code Link (Week 2 – Day 6):**
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism)
 
+---
+
+### 🔹 Day 7: Story-Driven, Real-World Java OOP Applications & DSA Setup
+
+* Worked on **`java-oops-practice` branch**
+* Created a new branch **`java-dsa-practice`**
+* Implemented **basic folder structure** and completed **initial project setup** for DSA practice
+* Solved **real-world, story-based Java programming problems**
+* Designed mini use-case systems integrating **Core Java + OOP**
+* Applied end-to-end **OOP principles** in realistic application flows
+
+**Key Concepts Applied**
+
+* Classes, Variables & Methods
+* Constructors & Method Overloading
+* Access Modifiers (`private`, `protected`, `public`)
+* Interfaces for abstraction
+* Operators for calculations and comparisons
+* **OOP Principles**:
+
+  * Encapsulation
+  * Inheritance
+  * Abstraction
+  * Polymorphism
+
+**Scenario-Based Applications Implemented**
+
+* Hospital Patient Management System
+* Vehicle Rental Application
+* University Course Enrollment System
+* E-Wallet Application
+* Smart Home Automation System
+
+🔗 **Code Link (Week 2 – Day 7):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
