@@ -706,3 +706,73 @@
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism)
 
 ---
+
+## 🔹 Day 7: Real-World, Story-Driven Java OOP Scenario based Problems
+
+* Worked on **`java-oops-practice` branch**
+* Solved **story-driven, real-world Java problems** modeled as mini use-case systems
+* Integrated **Core Java + OOP concepts** in every problem
+* Focused on designing **scalable, readable, and maintainable systems**
+* Applied end-to-end OOP principles in realistic application flows
+
+---
+
+### 🧪 Scenario-Based OOP Problems Implemented
+
+* **Hospital Patient Management System**
+
+  * Patient registration, doctor assignment, and billing
+  * Used inheritance (`InPatient`, `OutPatient`)
+  * Applied encapsulation for sensitive medical data
+  * Used interface for billing abstraction
+  * Demonstrated polymorphic `displayInfo()` behavior
+
+* **Vehicle Rental Application**
+
+  * Bike, Car, and Truck rental system
+  * Inheritance from base `Vehicle` class
+  * Interface-based rent calculation
+  * Polymorphic rent computation by vehicle type
+
+* **University Course Enrollment System**
+
+  * Student enrollment and grading system
+  * Inheritance for `Undergraduate` and `Postgraduate`
+  * Interface-based grading strategy
+  * Secure GPA handling using encapsulation
+
+* **E-Wallet Application**
+
+  * User registration, fund loading, and transfers
+  * Encapsulation to protect wallet balance
+  * Inheritance for `PersonalWallet` and `BusinessWallet`
+  * Polymorphic transfer behavior
+
+* **Smart Home Automation System**
+
+  * Appliance control (Light, Fan, AC)
+  * Common control interface for all devices
+  * Inheritance for device types
+  * Polymorphic device behavior on actions
+
+---
+
+### 🛠 Concepts Applied
+
+* Classes, Objects, Variables & Methods
+* Constructors & Method Overloading
+* Access Modifiers (`private`, `protected`, `public`)
+* Interfaces & Abstract Design
+* Operators for calculations and comparisons
+* **OOP Principles**:
+
+  * Encapsulation
+  * Inheritance
+  * Abstraction
+  * Polymorphism
+
+🔗 **Code Link (Week 2 – Day 7):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
