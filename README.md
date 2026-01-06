@@ -420,3 +420,71 @@ BridgeLabz-Training/
 
 ---
 
+## 📘 Week 3: Advanced Java, OOP & Data Structures
+
+### 🔹 Week 3 – Day 1: Story-Based OOP Design & DSA Foundations
+
+This day focused on **advanced Object-Oriented Programming through real-world scenarios** and **starting the Data Structures journey** with proper setup and Linked List implementations.
+
+---
+
+### 🔹 Java OOP – Story-Based Real-World Applications
+
+**Branch:** `java-oops-practice`
+
+* Solved **real-world, story-driven Java OOP problems**
+* Designed mini systems using **classes, constructors, interfaces, and inheritance**
+* Applied **encapsulation** to protect sensitive data
+* Used **polymorphism** to vary behavior across implementations
+* Performed real-world calculations using Java **operators**
+
+**Scenario-Based Applications Implemented**
+
+* CampusConnect – College Information System
+* SwiftCart – Grocery Shopping App
+* CabbyGo – Ride-Hailing Application
+* MyBank – Digital Banking System
+
+🔗 **Code Link (OOP – Week 3 Day 1):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
+### 🔹 Java DSA – Initial Setup & Linked List Practice
+
+**Branch:** `java-dsa-practice`
+
+* Created new Git branch **`java-dsa-practice`**
+* Completed **initial DSA project and folder structure setup**
+* Studied and implemented **Linked List data structure**
+* Worked on:
+
+  * Singly Linked List
+  * Doubly Linked List
+  * Circular Linked List
+* Solved **multiple real-world problems** using linked lists
+* Practiced **node creation, pointer manipulation, and traversal**
+* Applied Linked List **best practices**:
+
+  * Head & tail management
+  * Null checks before operations
+  * Correct pointer updates
+  * Avoiding infinite loops in circular lists
+  * Modular and readable code
+
+**Problems Implemented**
+
+* Student Record Management
+* Movie Management System
+* Task Scheduler
+* Inventory Management System
+* Library Management System
+* Round Robin CPU Scheduling
+* Social Media Friend Connections
+* Undo / Redo Text Editor
+* Online Ticket Reservation System
+
+🔗 **Code Link (DSA – Week 3 Day 1):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/linkedlist](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/linkedlist)
+
+---
