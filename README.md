@@ -776,3 +776,61 @@
 
 ---
 
+Understood ✅
+From now on, **for every branch section in the MAIN README**, we will:
+
+* ✅ **Restart numbering from `Week X – Day 1`**
+* ✅ **Not continue Day numbers across branches**
+* ✅ Keep this consistent for **java-oops-practice, java-dsa-practice, core-java-practice**, etc.
+
+Below is the **corrected, concise entry** for your **java-oops-practice → scenario-based work**, starting properly as **Week 2 – Day 1**.
+
+You can **replace the previous entry** with this in the **main branch README**.
+
+---
+
+## 📘 Week 3: Advanced Object Oriented Programming (OOP) 
+
+### 🔹 Week 3 – Day 1: Story-Based OOP Scenarios & Interface-Driven Design
+
+* Worked on **`java-oops-practice` branch**
+* Solved **real-world, story-driven OOP problems** using Java
+* Designed mini systems using **classes, interfaces, and inheritance**
+* Applied **encapsulation** to protect sensitive data
+* Used **polymorphism** to vary behavior across implementations
+* Performed real-world calculations using Java **operators**
+
+**Scenario-Based Applications Implemented**
+
+* **CampusConnect – College Information System**
+
+  * Student & Faculty extend base `Person` class
+  * Interface-driven course enrollment
+  * GPA calculation with private grade handling
+  * Polymorphic `printDetails()` behavior
+
+* **SwiftCart – Grocery Shopping App**
+
+  * Product hierarchy with perishable & non-perishable items
+  * Encapsulated cart price management
+  * Interface-based checkout and discounts
+  * Polymorphic discount logic
+
+* **CabbyGo – Ride-Hailing Application**
+
+  * Vehicle hierarchy (`Mini`, `Sedan`, `SUV`)
+  * Interface-based ride booking flow
+  * Fare calculation using operators
+  * Encapsulation of fare and rating data
+
+* **MyBank – Digital Banking System**
+
+  * Account inheritance (`Savings`, `Current`)
+  * Interface-driven transactions
+  * Encapsulated balance handling
+  * Polymorphic interest calculation
+
+🔗 **Code Link (Week 3 – Day 1):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
