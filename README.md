@@ -488,3 +488,90 @@ This day focused on **advanced Object-Oriented Programming through real-world sc
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/linkedlist](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/linkedlist)
 
 ---
+
+## 🔹 Week 3 – Day 2: Advanced OOP Systems & Core DSA (Stacks, Queues, Hashing)
+
+### 📌 Java OOP – Story-Driven, Real-World Application Design
+
+**Branch:** `java-oops-practice`
+
+* Designed and implemented **advanced story-based OOP systems**
+* Focused on **clean domain modeling**, scalability, and maintainability
+* Integrated **Core Java + OOP principles** in complete mini-systems
+* Applied **encapsulation, inheritance, abstraction, and polymorphism** together
+* Used interfaces to reduce coupling and improve extensibility
+
+**Key Scenario-Based Applications Implemented**
+
+* **EduMentor – Personalized Learning Platform**
+
+  * User hierarchy (`User`, `Learner`, `Instructor`)
+  * Quiz management with encapsulated answers
+  * Interface-driven certificate generation
+  * Polymorphic behavior for different course types
+
+* **FitTrack – Personal Fitness Tracker**
+
+  * Workout tracking with inheritance (`Cardio`, `Strength`)
+  * Interface-based workout lifecycle
+  * Encapsulation of sensitive health data
+  * Polymorphic calorie calculation
+
+* **CampusConnect – College Information System**
+
+  * Academic domain modeling with inheritance
+  * Interface-based course enrollment
+  * Secure GPA calculation and grade handling
+  * Polymorphic detail display
+
+* **SwiftCart – Grocery Shopping App**
+
+  * Product hierarchy with encapsulated pricing
+  * Interface-based checkout and discounts
+  * Polymorphic discount logic by product type
+
+🔗 **Code Link (Java OOP):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
+### 📌 Java DSA – Stacks, Queues & Hashing Fundamentals
+
+**Branch:** `java-dsa-practice`
+
+* Worked on **core linear data structures**
+* Focused on **problem-solving using Stacks, Queues, and HashMaps**
+* Followed **DSA best practices** for performance and correctness
+* Strengthened understanding of **FIFO, LIFO, and hashing mechanisms**
+
+**DSA Topics Practiced**
+
+* **Stacks**
+
+  * Recursive stack-based solutions
+  * Stack overflow/underflow handling
+  * Sorting stack using recursion
+  * Stock Span Problem
+
+* **Queues**
+
+  * Queue using stacks
+  * Circular queue logic
+  * Sliding Window Maximum
+  * Circular Tour (Petrol Pump) problem
+
+* **HashMaps & Hash Functions**
+
+  * Zero-sum subarray detection
+  * Two Sum problem
+  * Longest consecutive sequence
+  * Custom hash map implementation (separate chaining)
+
+🔗 **Code Links (Java DSA):**
+👉 Stacks & Queues:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stacksandqueues](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stacksandqueues)
+
+👉 HashMap & Hash Functions:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/hashmapandhashfunction](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/hashmapandhashfunction)
+
+---
