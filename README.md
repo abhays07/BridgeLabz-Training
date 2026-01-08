@@ -575,3 +575,61 @@ This day focused on **advanced Object-Oriented Programming through real-world sc
 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/hashmapandhashfunction](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/hashmapandhashfunction)
 
 ---
+
+## 🔹 Week 3 – Day 3: Scenario-Based OOP Systems & Sorting Algorithms (DSA)
+
+### 📌 Java OOP – Scenario-Based Application Design
+
+**Branch:** `java-oops-practice`
+
+* Solved **real-world, story-driven Java OOP problems**
+* Focused on **behavior modeling, state management, and clean object design**
+* Applied **inheritance, interfaces, encapsulation, and polymorphism** together
+* Designed systems with controlled access to internal data
+* Followed modular and maintainable coding practices
+
+**Scenario-Based Applications Implemented**
+
+* **PetPal – Virtual Pet Care App**
+
+  * Inheritance-based pet hierarchy (`Dog`, `Cat`, `Bird`)
+  * Interface-driven interactions (`feed`, `play`, `sleep`)
+  * Encapsulation of internal pet states (mood, hunger, energy)
+  * Polymorphic behavior for pet sounds and interactions
+
+* **EventEase – Event Management Platform**
+
+  * Event scheduling and booking system
+  * Inheritance for different event types
+  * Interface-based scheduling lifecycle
+  * Encapsulated pricing and user-sensitive data
+  * Polymorphic scheduling behavior based on event type
+
+🔗 **Code Link (Java OOP):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
+### 📌 Java DSA – Sorting Algorithms
+
+**Branch:** `java-dsa-practice`
+
+* Implemented **core sorting algorithms** using real-world scenarios
+* Strengthened understanding of **comparison-based and non-comparison-based sorting**
+* Practiced **iterative, recursive, and divide-and-conquer approaches**
+* Focused on time complexity, stability, and in-place sorting behavior
+
+**Sorting Algorithms Implemented**
+
+* Bubble Sort – Student Marks
+* Insertion Sort – Employee IDs
+* Selection Sort – Exam Scores
+* Merge Sort – Book Prices
+* Quick Sort – Product Prices
+* Heap Sort – Job Applicant Salaries
+* Counting Sort – Student Ages
+
+🔗 **Code Link (Java DSA):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/sortingalgorithm](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/sortingalgorithm)
+
+---
