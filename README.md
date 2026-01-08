@@ -173,3 +173,67 @@ This repository documents my **Data Structures & Algorithms (DSA) learning journ
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/hashmapandhashfunction](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/hashmapandhashfunction)
 
 ---
+
+## 🔹 Week 1 – Day 4: Sorting Algorithms (Fundamental DSA)
+
+**Branch:** `java-dsa-practice`
+
+* Worked on **core sorting algorithms** used in real-world systems
+* Focused on **comparison-based and non-comparison-based sorting techniques**
+* Strengthened understanding of **time complexity and algorithm behavior**
+* Implemented sorting logic using **arrays and modular methods**
+* Followed clean, readable, and efficient **DSA coding practices**
+
+---
+
+### 🧪 Sorting Algorithms Implemented (Scenario-Based)
+
+* **Bubble Sort – Student Marks**
+
+  * Sorted student marks in ascending order
+  * Practiced adjacent comparison and swapping
+  * Understood best and worst-case behavior
+
+* **Insertion Sort – Employee IDs**
+
+  * Sorted employee IDs using incremental insertion
+  * Learned sorted vs unsorted partitioning
+  * Applied shifting logic efficiently
+
+* **Merge Sort – Book Prices**
+
+  * Implemented divide-and-conquer strategy
+  * Recursively split and merged arrays
+  * Practiced stable and efficient sorting
+
+* **Quick Sort – Product Prices**
+
+  * Used pivot-based partitioning
+  * Recursively sorted sub-arrays
+  * Learned average-case efficiency and recursion flow
+
+* **Selection Sort – Exam Scores**
+
+  * Identified minimum elements iteratively
+  * Practiced in-place sorting
+  * Understood comparison-heavy algorithms
+
+* **Heap Sort – Job Applicant Salaries**
+
+  * Built max-heap structure
+  * Performed heapify operations
+  * Extracted elements to sort efficiently
+
+* **Counting Sort – Student Ages**
+
+  * Implemented non-comparison-based sorting
+  * Used frequency arrays for fixed-range data
+  * Achieved linear time complexity for constrained inputs
+
+---
+
+### 🔗 Code Link (Week 1 – Day 4)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/sortingalgorithm](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/sortingalgorithm)
+
+---
