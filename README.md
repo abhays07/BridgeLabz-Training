@@ -1,4 +1,4 @@
-## 📘 Week 2: Object Oriented Programming (OOP)
+## 📘 Week 1: Object Oriented Programming (OOP)
 
 ### 🔹 Day 1: Installation, Eclipse Setup & Git Branch Creation
 
@@ -58,7 +58,7 @@
 * Kept code organized using package structures
 * Ensured clean commits for better version control
 
-### 🔗 Code Link (Week 2 – Day 1):
+### 🔗 Code Link (Week 1 – Day 1):
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobject](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobject)
 
@@ -138,7 +138,7 @@
 * Followed standard **Java naming conventions**
 * Organized code using meaningful **packages and class names**
 
-### 🔗 Code Link (Week 2 – Day 2):
+### 🔗 Code Link (Week 1 – Day 2):
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javaconstructors](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javaconstructors)
 
@@ -221,7 +221,7 @@
 * Organized code into meaningful packages and classes
 * Maintained readable, well-documented source code
 
-### 🔗 Code Link (Week 2 – Day 3):
+### 🔗 Code Link (Week 1 – Day 3):
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction)
 
@@ -375,7 +375,7 @@
 * Modeled real-world scenarios accurately
 
 
-## 🔗 Code Link (Week 2 – Day 4)
+## 🔗 Code Link (Week 1 – Day 4)
 
 👉 **Object Modeling Practice Code**
 🔗 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling)
@@ -562,7 +562,7 @@
   * Continued work on `java-oops-practice` branch
   * Structured commits with clear intent
 
-## 🔗 Code Link (Week 2 – Day 5)
+## 🔗 Code Link (Week 1 – Day 5)
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance)
 
@@ -701,7 +701,7 @@
 * Used meaningful class, method, and variable names
 * Designed systems for scalability and maintainability
 
-## 🔗 Code Link (Week 2 – Day 6)
+## 🔗 Code Link (Week 1 – Day 6)
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism)
 
@@ -771,27 +771,14 @@
   * Abstraction
   * Polymorphism
 
-🔗 **Code Link (Week 2 – Day 7):**
+🔗 **Code Link (Week 1 – Day 7):**
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
 
 ---
 
-Understood ✅
-From now on, **for every branch section in the MAIN README**, we will:
+## 📘 Week 2: Advanced Object Oriented Programming (OOP) 
 
-* ✅ **Restart numbering from `Week X – Day 1`**
-* ✅ **Not continue Day numbers across branches**
-* ✅ Keep this consistent for **java-oops-practice, java-dsa-practice, core-java-practice**, etc.
-
-Below is the **corrected, concise entry** for your **java-oops-practice → scenario-based work**, starting properly as **Week 2 – Day 1**.
-
-You can **replace the previous entry** with this in the **main branch README**.
-
----
-
-## 📘 Week 3: Advanced Object Oriented Programming (OOP) 
-
-### 🔹 Week 3 – Day 1: Story-Based OOP Scenarios & Interface-Driven Design
+### 🔹 Week 2 – Day 1: Story-Based OOP Scenarios & Interface-Driven Design
 
 * Worked on **`java-oops-practice` branch**
 * Solved **real-world, story-driven OOP problems** using Java
@@ -830,7 +817,69 @@ You can **replace the previous entry** with this in the **main branch README**.
   * Encapsulated balance handling
   * Polymorphic interest calculation
 
-🔗 **Code Link (Week 3 – Day 1):**
+🔗 **Code Link (Week 2 – Day 1):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
+## 🔹 Week 2 – Day 2: Advanced Story-Based OOP Systems & Domain Modeling
+
+* Worked on **`java-oops-practice` branch**
+* Solved **advanced story-driven, real-world OOP problems**
+* Focused on **domain modeling**, responsibility separation, and clean design
+* Integrated **interfaces, inheritance, encapsulation, and polymorphism** together
+* Strengthened ability to design **backend logic for real applications**
+
+---
+
+### 🧪 Scenario-Based OOP Problems Implemented
+
+* **CampusConnect – College Information System**
+
+  * Modeled academic domain using `Person`, `Student`, and `Faculty`
+  * Interface-driven course enrollment and drop operations
+  * GPA calculation using operators
+  * Private grade handling with controlled access
+  * Polymorphic `printDetails()` implementation
+
+* **SwiftCart – Grocery Shopping Application**
+
+  * Product-based cart system with inheritance
+  * Encapsulated pricing and discount logic
+  * Interface-based checkout workflow
+  * Polymorphic discount application by product type
+
+* **CabbyGo – Ride-Hailing Application Backend**
+
+  * Vehicle and driver management system
+  * Interface-driven ride booking and completion
+  * Fare calculation using base fare and distance
+  * Encapsulation of sensitive data like fare and rating
+  * Polymorphism across vehicle types (`Mini`, `Sedan`, `SUV`)
+
+* **MyBank – Digital Banking System**
+
+  * Account hierarchy with `SavingsAccount` and `CurrentAccount`
+  * Interface-based transaction handling
+  * Encapsulated balance management
+  * Polymorphic interest calculation per account type
+
+---
+
+### 🛠 Concepts Applied
+
+* Classes & Objects
+* Constructors & Overloading
+* Access Modifiers (`private`, `protected`, `public`)
+* Interfaces for abstraction
+* Inheritance & Polymorphism
+* Encapsulation for data security
+* Operators for real-world calculations
+
+---
+
+### 🔗 Code Link (Week 2 – Day 2)
+
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
 
 ---
