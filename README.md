@@ -114,3 +114,62 @@ This repository documents my **Data Structures & Algorithms (DSA) learning journ
 
 ---
 
+### 🔹 Day 3: Stacks, Queues & HashMap Fundamentals
+
+* Continued work on **`java-dsa-practice` branch**
+* Studied and implemented **Stacks, Queues, and Hash Maps**
+* Focused on **problem-solving using appropriate data structures**
+* Applied best practices to ensure **efficiency, safety, and clarity**
+* Solved classic **interview-oriented problems**
+
+---
+
+### 🧪 Topics Covered
+
+* **Stacks**
+
+  * Push, pop, peek operations
+  * Recursive stack usage
+  * Stack-based problem solving
+* **Queues**
+
+  * FIFO processing
+  * Circular queue logic
+  * Deque usage for sliding window problems
+* **HashMap & Hash Functions**
+
+  * Key–value storage and retrieval
+  * Collision handling concepts
+  * Efficient lookup-based problem solving
+
+---
+
+### 🧪 Problems Solved
+
+**Stacks & Queues**
+
+* Queue using two stacks
+* Sort a stack using recursion
+* Stock Span Problem
+* Sliding Window Maximum
+* Circular Tour (Petrol Pump) Problem
+
+**HashMap & Hash Functions**
+
+* Find all subarrays with zero sum
+* Pair with given sum
+* Longest consecutive sequence
+* Custom HashMap implementation
+* Two Sum problem
+
+---
+
+### 🔗 Code Links (Week 1 – Day 3)
+
+**Stacks & Queues:**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stacksandqueues](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stacksandqueues)
+
+**HashMap & Hash Functions:**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/hashmapandhashfunction](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/hashmapandhashfunction)
+
+---
