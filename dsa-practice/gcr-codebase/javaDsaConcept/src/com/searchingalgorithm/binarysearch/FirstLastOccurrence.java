@@ -73,6 +73,7 @@ public class FirstLastOccurrence {
             System.out.println("Last occurrence index: " + last);
         }
 
+        // Close the scanner object
         sc.close();
     }
 }
