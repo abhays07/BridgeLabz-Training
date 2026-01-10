@@ -633,3 +633,81 @@ This day focused on **advanced Object-Oriented Programming through real-world sc
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/sortingalgorithm](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/sortingalgorithm)
 
 ---
+
+## 🔹 Week 3 – Day 4: Enterprise OOP Systems & Searching + Java Utilities (DSA)
+
+### 📌 Java OOP – Enterprise-Style Scenario-Based Systems
+
+**Branch:** `java-oops-practice`
+
+* Designed **enterprise-level, real-world Java backend systems**
+* Focused on **business workflows, calculations, and secure state management**
+* Applied **advanced OOP principles** in complete application flows
+* Ensured **data encapsulation, controlled access, and extensibility**
+* Modeled systems aligned with **real production use cases**
+
+**Scenario-Based Applications Implemented**
+
+* **LoanBuddy – Loan Approval Automation**
+
+  * Applicant and loan modeling with inheritance
+  * Interface-driven loan approval and EMI calculation
+  * Secure handling of credit score and approval logic
+  * Polymorphic EMI calculation for different loan types
+
+* **BookBazaar – Digital Bookstore System**
+
+  * Inventory and order management system
+  * Inheritance for book types (`EBook`, `PrintedBook`)
+  * Interface-based discount application
+  * Encapsulated inventory updates and order status handling
+
+* **ParkEase – Smart Parking Management System**
+
+  * Parking slot and vehicle hierarchy design
+  * Interface-driven charge calculation
+  * Polymorphic pricing based on vehicle type
+  * Encapsulation of booking records and slot availability
+
+🔗 **Code Link (Java OOP):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
+### 📌 Java DSA – Searching Algorithms & Java Utility Classes
+
+**Branch:** `java-dsa-practice`
+
+* Practiced **efficient searching techniques** for data retrieval
+* Strengthened understanding of **linear vs binary search**
+* Worked with **Java utility classes** for string manipulation and file handling
+* Focused on **performance, correctness, and best practices**
+* Implemented problem-driven DSA programs
+
+**DSA Topics Practiced**
+
+* **String Handling & I/O Utilities**
+
+  * `StringBuilder` for efficient string manipulation
+  * `StringBuffer` for thread-safe string operations
+  * `FileReader` for file reading and word counting
+  * `InputStreamReader` for stream-to-character conversion
+
+* **Searching Algorithms**
+
+  * Linear Search (negative number, word search, missing positive)
+  * Binary Search (rotation point, peak element, 2D matrix search)
+  * First & last occurrence in sorted arrays
+  * Combined linear + binary search challenge problems
+
+🔗 **Code Links (Java DSA):**
+👉 Searching Algorithms:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/searchingalgorithm](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/searchingalgorithm)
+
+👉 StringBuilder:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stringbuilder](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stringbuilder)
+
+👉 StringBuffer & File Handling:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stringbuffer](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stringbuffer)
+
+---
