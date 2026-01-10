@@ -876,10 +876,63 @@
 * Encapsulation for data security
 * Operators for real-world calculations
 
----
-
 ### 🔗 Code Link (Week 2 – Day 2)
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
 
 ---
+
+## 🔹 Week 2 – Day 3: Scenario-Based OOP Applications (Inheritance, Interfaces & Polymorphism)
+
+**Branch:** `java-oops-practice`
+
+* Solved **real-world, story-driven Java OOP problems**
+* Focused on **object interaction, state management, and behavior modeling**
+* Applied **inheritance, interfaces, encapsulation, and polymorphism** cohesively
+* Designed systems with **controlled data access and clean responsibilities**
+* Strengthened understanding of **dynamic behavior using polymorphism**
+
+---
+
+### 🧪 Scenario-Based OOP Problems Implemented
+
+#### **PetPal – Virtual Pet Care Application**
+
+* Designed a base `Pet` class with common attributes
+* Implemented inheritance for `Dog`, `Cat`, and `Bird`
+* Used an interface for interactive behaviors (`feed`, `play`, `sleep`)
+* Encapsulated internal states like hunger, mood, and energy
+* Used constructors for random or user-defined pet initialization
+* Applied operators to update pet states based on interactions
+* Implemented polymorphic `makeSound()` behavior for each pet type
+
+---
+
+#### **EventEase – Event Management Platform**
+
+* Modeled event booking and scheduling system
+* Created base `Event` class with specialized event types
+* Used interfaces to manage scheduling lifecycle
+* Applied inheritance for different event categories
+* Encapsulated sensitive event and user data
+* Used operators to calculate total event cost dynamically
+* Implemented polymorphic scheduling behavior for different event types
+
+---
+
+### 🛠 Concepts Applied
+
+* Classes & Objects
+* Constructors & Method Overloading
+* Inheritance & Polymorphism
+* Interfaces for behavior abstraction
+* Encapsulation using access modifiers
+* Operators for dynamic state and cost calculations
+* Real-world system modeling using OOP principles
+
+### 🔗 Code Link (Week 2 – Day 3)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
