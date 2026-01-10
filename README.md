@@ -936,3 +936,58 @@
 
 ---
 
+## 🔹 Week 2 – Day 4: Advanced Scenario-Based OOP Systems (Enterprise Use Cases)
+
+**Branch:** `java-oops-practice`
+
+* Designed **enterprise-style, real-world Java backend systems**
+* Focused on **business rules, calculations, and secure workflows**
+* Applied **advanced OOP principles** in end-to-end use cases
+* Emphasized **data encapsulation, controlled access, and extensibility**
+* Modeled systems close to **real production scenarios**
+
+---
+
+### 🧪 Scenario-Based OOP Applications Implemented
+
+#### **LoanBuddy – Loan Approval Automation**
+
+* Modeled loan applicants and applications
+* Implemented interface-driven approval and EMI calculation
+* Applied encapsulation to secure credit score and approval logic
+* Used operators for EMI computation
+* Designed loan hierarchy with inheritance
+* Applied polymorphism for loan-specific EMI logic
+* Restricted loan status changes using access modifiers
+
+---
+
+#### **BookBazaar – Digital Bookstore System**
+
+* Designed inventory and order management system
+* Implemented inheritance for different book types
+* Applied interface-based discount strategy
+* Secured inventory updates using encapsulation
+* Used operators for total cost calculation
+* Applied polymorphism for book-specific discounts
+* Restricted order status updates to internal workflows
+
+---
+
+#### **ParkEase – Smart Parking Management System**
+
+* Modeled parking slots and vehicle types
+* Implemented interface-driven charge calculation
+* Secured slot availability and booking records
+* Used operators for dynamic pricing and penalties
+* Applied inheritance for different vehicle types
+* Implemented polymorphic charge calculation logic
+
+---
+
+### 🔗 Code Link (Week 2 – Day 4)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
