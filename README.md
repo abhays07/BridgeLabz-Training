@@ -230,10 +230,79 @@ This repository documents my **Data Structures & Algorithms (DSA) learning journ
   * Used frequency arrays for fixed-range data
   * Achieved linear time complexity for constrained inputs
 
----
-
 ### 🔗 Code Link (Week 1 – Day 4)
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/sortingalgorithm](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/sortingalgorithm)
 
 ---
+
+## 🔹 Week 1 – Day 5: Searching Algorithms & Java Utility Classes (DSA)
+
+**Branch:** `java-dsa-practice`
+
+* Practiced **searching algorithms** for efficient data retrieval
+* Strengthened understanding of **linear vs binary search use cases**
+* Worked with **Java utility classes** for string manipulation and file handling
+* Focused on **performance, correctness, and best practices**
+* Implemented real-world, problem-driven DSA programs
+
+---
+
+### 🧪 Topics & Problems Implemented
+
+#### **String Handling & I/O Utilities**
+
+* **StringBuilder**
+
+  * Efficient string manipulation in performance-sensitive scenarios
+  * Implemented string reversal and duplicate removal
+
+* **StringBuffer**
+
+  * Thread-safe string concatenation
+  * Compared performance with `StringBuilder`
+
+* **FileReader**
+
+  * Read files line by line
+  * Counted word occurrences in text files
+
+* **InputStreamReader**
+
+  * Converted byte streams to character streams
+  * Read console input and wrote data to files
+  * Handled encoding and resource management safely
+
+---
+
+#### **Searching Algorithms**
+
+* **Linear Search**
+
+  * First negative number in an array
+  * Word search in a list of sentences
+  * First missing positive integer (challenge problem)
+
+* **Binary Search**
+
+  * Rotation point in a rotated sorted array
+  * Peak element in an array
+  * Target search in a 2D sorted matrix
+  * First and last occurrence of an element in a sorted array
+  * Target index search after sorting (challenge problem)
+
+---
+
+### 🔗 Code Links (Week 1 – Day 5)
+
+👉 **Searching Algorithms:**
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/searchingalgorithm](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/searchingalgorithm)
+
+👉 **StringBuilder:**
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stringbuilder](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stringbuilder)
+
+👉 **StringBuffer & File Handling:**
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stringbuffer](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stringbuffer)
+
+---
+
