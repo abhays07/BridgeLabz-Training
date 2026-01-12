@@ -711,3 +711,29 @@ This day focused on **advanced Object-Oriented Programming through real-world sc
 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stringbuffer](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/javaDsaConcept/src/com/stringbuffer)
 
 ---
+
+## 🔹 Week 3 – Day 5: Scenario-Based Data Structures Practice (DSA)
+
+### 📌 Java DSA – Real-World Scenario-Based Problems
+
+**Branch:** `java-dsa-practice`
+
+* Solved **real-world, scenario-based DSA problems**
+* Used combinations of **Linked Lists, Stacks, Queues, and HashMaps**
+* Focused on practical data handling, traversal, and dynamic updates
+
+**Problems Implemented**
+
+* **BookShelf – Library Organizer**
+  *(HashMap + Linked List)*
+
+* **BrowserBuddy – Tab History Manager**
+  *(Doubly Linked List + Stack)*
+
+* **AmbulanceRoute – Emergency Patient Navigation**
+  *(Circular Linked List)*
+
+🔗 **Code Link (Java DSA – Week 3 Day 5):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
+
+---
