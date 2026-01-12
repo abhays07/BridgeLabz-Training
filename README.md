@@ -306,3 +306,43 @@ This repository documents my **Data Structures & Algorithms (DSA) learning journ
 
 ---
 
+## 📘 Week 1 – Day 6: Scenario-Based DSA Practice
+
+**Branch:** `java-dsa-practice`
+
+### ✅ Work Done
+
+* Solved **real-world scenario-based DSA problems**
+* Integrated **Linked Lists, Stacks, Queues, HashMaps, and Functions**
+* Focused on practical data-structure usage with clean logic
+* Implemented dynamic data handling and efficient operations
+
+---
+
+### 🧪 Scenario-Based DSA Problems Solved
+
+* **BookShelf – Library Organizer (HashMap + LinkedList)**
+
+  * Genre-wise book catalog using `HashMap<String, LinkedList<Book>>`
+  * Dynamic insertion and deletion of books
+  * Optional duplicate handling using `HashSet`
+
+* **BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)**
+
+  * Backward and forward navigation using doubly linked list
+  * Recently closed tabs restoration using stack
+  * Efficient pointer-based memory management
+
+* **AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)**
+
+  * Hospital units connected in circular structure
+  * Rotational traversal to find available units
+  * Patient redirection simulation
+  * Removal of units under maintenance
+
+---
+
+### 🔗 Code Link (Week 1 – Day 6)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
+
