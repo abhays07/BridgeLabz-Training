@@ -346,3 +346,24 @@ This repository documents my **Data Structures & Algorithms (DSA) learning journ
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
 
+---
+
+### 📅 Week 1: (Core DSA) 🔹 Day 7: Scenario-Based DSA – Circular Linked List & Queue
+
+* Solved **1 real-world scenario-based DSA problem**
+* Used **Circular Linked List** for dynamic vehicle movement
+* Used **Queue** for managing waiting vehicles
+* Implemented add, remove, and state display operations
+
+---
+
+### 🧪 Problem Implemented
+
+* **TrafficManager – Roundabout Vehicle Flow**
+  *(Circular Linked List + Queue)*
+
+---
+
+### 🔗 Code Link (Week 1 – Day 7)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
