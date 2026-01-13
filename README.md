@@ -737,3 +737,34 @@ This day focused on **advanced Object-Oriented Programming through real-world sc
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
 
 ---
+
+## 🔹 Week 3 – Day 6: Scenario-Based OOP & DSA Implementations
+
+### 📌 Java OOP – Scenario-Based Systems
+
+**Branch:** `java-oops-practice`
+
+**Problems Solved**
+
+* **HomeNest – Smart Home Device Manager**
+* **BudgetWise – Personal Finance Tracker**
+* **GameBox – Mobile Game Distribution Platform**
+
+🔗 **Code Link (Java OOP):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
+### 📌 Java DSA – Scenario-Based Data Structures
+
+**Branch:** `java-dsa-practice`
+
+**Problem Solved**
+
+* **TrafficManager – Roundabout Vehicle Flow**
+  *(Circular Linked List + Queue)*
+
+🔗 **Code Link (Java DSA):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
+
+---
