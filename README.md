@@ -991,3 +991,32 @@
 
 ---
 
+## 📅 Week 2: (OOP – Scenario Based)
+
+### 🔹 Day 5: Advanced Real-World OOP Scenario Implementations
+
+* Solved **multiple end-to-end, scenario-based OOP problems**
+* Implemented systems using **inheritance, interfaces, encapsulation, and polymorphism**
+* Designed clean domain models with controlled data access
+* Focused on **business logic, state handling, and operator-based calculations**
+
+**Scenario-Based Problems Solved**
+
+* **Artify – Digital Art Marketplace**
+  (Artwork hierarchy, purchasing & licensing with polymorphic behavior)
+
+* **FoodLoop – Restaurant Ordering System**
+  (Food items, orders, discounts, and stock-protected design)
+
+* **SkillForge – Online Learning Portal**
+  (Courses, students, instructors, certification with polymorphic output)
+
+* **MediStore – Pharmacy Inventory & Sales System**
+  (Medicine types, expiry checks, sales logic, protected pricing)
+
+* **TourMate – Travel Itinerary Planner**
+  (Trip planning, booking logic, budget calculation, trip-type polymorphism)
+
+🔗 **Code Link:**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
