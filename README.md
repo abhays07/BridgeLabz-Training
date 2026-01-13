@@ -1020,3 +1020,30 @@
 🔗 **Code Link:**
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
 
+---
+
+## 📅 Week 2: (OOP – Scenario Based)
+
+### 🔹 Day 6: Smart Systems, Finance Tracking & Digital Platforms (OOP)
+
+* Worked on **`java-oops-practice` branch**
+* Solved **complex, real-world scenario-based OOP problems**
+* Focused on **state management, controlled access, and behavior variation**
+* Applied **inheritance, interfaces, encapsulation, and polymorphism** together
+* Implemented operator-based business logic and calculations
+
+**Scenario-Based Problems Solved**
+
+* **HomeNest – Smart Home Device Manager**
+  (Smart devices control system with polymorphic reset behavior and secured device states)
+
+* **BudgetWise – Personal Finance Tracker**
+  (Income/expense tracking, budget analysis, overspend detection, and polymorphic reports)
+
+* **GameBox – Mobile Game Distribution Platform**
+  (Game management, downloads, demos, offers, and genre-based polymorphic behavior)
+
+🔗 **Code Link:**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+
