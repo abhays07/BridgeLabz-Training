@@ -1045,5 +1045,26 @@
 
 🔗 **Code Link:**
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+---
+
+## 🔹 Week 2 – Day 7: Advanced Story-Driven OOP Scenarios & Polymorphic Design
+
+**Branch:** `java-oops-practice`
+
+Solved **advanced real-world, story-driven Java OOP problems** focusing on **inheritance hierarchies, interfaces, encapsulation, and runtime polymorphism**, modeled as complete backend systems.
+
+### 🧪 Scenario-Based OOP Problems Solved
+
+* **PayXpress – Utility Bill Payment System**
+  Implemented a utility billing system with recurring bills, interface-based payment handling, encapsulated payment state, late-fee calculation, inheritance for utility types, and polymorphic reminder behavior.
+
+* **Bird Sanctuary – Wildlife Management System**
+  Designed a bird sanctuary system using inheritance and interfaces to model flying, swimming, both, or neither behaviors. Managed birds using collections, enabled searching by abilities, supported add/remove operations, and generated sanctuary reports using polymorphism.
+
+🔗 **Code Link (Week 2 – Day 7):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
 
 
