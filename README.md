@@ -768,3 +768,50 @@ This day focused on **advanced Object-Oriented Programming through real-world sc
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
 
 ---
+
+## 🔹 Week 3 – Day 7: Advanced OOP Scenarios & Scenario-Based DSA Practice
+
+This day focused on solving **complex, real-world scenario-driven problems** across **Object-Oriented Programming** and **Data Structures**, emphasizing clean design, data flow, and realistic system behavior.
+
+---
+
+### 📌 Java OOP – Advanced Story-Driven Applications
+
+**Branch:** `java-oops-practice`
+
+Solved advanced, end-to-end Java OOP systems using **inheritance, interfaces, encapsulation, polymorphism**, and modern Java features.
+
+**Scenario-Based Applications Implemented**
+
+* **PayXpress – Utility Bill Payment System**
+  (Utility bills, recurring payments, late fee calculation, polymorphic reminders)
+
+* **Bird Sanctuary – Wildlife Management System**
+  (Inheritance + interfaces to model flying/swimming behaviors, sanctuary reports, add/remove/search operations)
+
+🔗 **Code Link (Java OOP):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
+### 📌 Java DSA – Scenario-Based Data Structure Problems
+
+**Branch:** `java-dsa-practice`
+
+Solved real-world DSA problems combining **Linked Lists, Stacks, Queues, HashMaps, and Functions**.
+
+**Scenario-Based Problems Implemented**
+
+* **SmartCheckout – Supermarket Billing Queue**
+  *(Queue + HashMap)*
+
+* **ParcelTracker – Delivery Chain Management**
+  *(Singly Linked List)*
+
+* **ExamProctor – Online Exam Review System**
+  *(Stack + HashMap + Functions)*
+
+🔗 **Code Link (Java DSA):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
+
+---
