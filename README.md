@@ -367,3 +367,33 @@ This repository documents my **Data Structures & Algorithms (DSA) learning journ
 ### 🔗 Code Link (Week 1 – Day 7)
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
+
+---
+
+## 🔹 Week 2 – Day 1: Scenario-Based Data Structures Practice
+
+**Branch:** `java-dsa-practice`
+
+Worked on **real-world, scenario-driven DSA problems** focusing on practical usage of **Queues, Linked Lists, Stacks, HashMaps, and functions** for handling dynamic data and workflows.
+
+### 🧪 Scenario-Based DSA Problems Implemented
+
+* **SmartCheckout – Supermarket Billing Queue**
+  *(Queue + HashMap)*
+  Managed customer flow using a queue, fetched item prices and stock using a hash map, and updated inventory after each purchase.
+
+* **ParcelTracker – Delivery Chain Management**
+  *(Singly Linked List)*
+  Modeled parcel movement across delivery stages using a linked list, supported forward tracking, custom checkpoints, and handled missing or lost parcels.
+
+* **ExamProctor – Online Exam Review System**
+  *(Stack + HashMap + Functions)*
+  Tracked question navigation using a stack, stored answers in a hash map, and evaluated final scores using modular functions.
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
+
+---
