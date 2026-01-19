@@ -868,4 +868,31 @@ Solved real-world DSA problems combining **Linked Lists, Stacks, Queues, HashMap
 
 ---
 
+## 📅 Week 4 – Day 3: Scenario-Based Sorting Algorithms (DSA)
+
+**Branch:** `java-dsa-practice`
+
+### 🧪 Scenario-Based Problems Solved
+
+* **IceCreamRush – Sorting Flavors by Popularity** *(Bubble Sort)*
+  Sorted weekly ice-cream flavor sales for a small dataset using adjacent comparisons.
+
+* **SmartLibrary – Auto-Sort Borrowed Books** *(Insertion Sort)*
+  Maintained an alphabetically sorted borrowed-books list with dynamic insertions.
+
+* **ArtExpo – Artist Registration Ordering** *(Insertion Sort)*
+  Continuously sorted artist registrations by time as new entries arrived.
+
+* **FleetManager – Vehicle Maintenance Scheduler** *(Merge Sort)*
+  Merged multiple depot-wise sorted vehicle lists into a single master schedule.
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+
 
