@@ -477,3 +477,35 @@ Worked on **real-world, scenario-driven DSA problems** focusing on practical usa
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
 
 ---
+
+## 📅 Week 2 – Day 5: Scenario-Based Sorting Algorithms (Real-World Use Cases)
+
+**Branch:** `java-dsa-practice`
+
+### 🧪 Problems Solved
+
+* **IceCreamRush – Sorting Flavors by Popularity**
+  *(Bubble Sort)*
+  Sorted weekly ice cream flavor sales using adjacent comparisons for a small dataset.
+
+* **SmartLibrary – Auto-Sort Borrowed Books**
+  *(Insertion Sort)*
+  Maintained an alphabetically sorted list of borrowed books as new entries were added dynamically.
+
+* **ArtExpo – Sort Artists by Registration Time**
+  *(Insertion Sort)*
+  Inserted artist registrations in real time while preserving sorted order by timestamp.
+
+* **FleetManager – Vehicle Maintenance Scheduler**
+  *(Merge Sort)*
+  Merged multiple depot-wise sorted vehicle lists into a single maintenance schedule.
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+
