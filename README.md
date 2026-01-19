@@ -845,3 +845,27 @@ Solved real-world DSA problems combining **Linked Lists, Stacks, Queues, HashMap
 
 ---
 
+## 📅 Week 4 – Day 2: Scenario-Based Sorting Algorithms (DSA – Continued)
+
+**Branch:** `java-dsa-practice`
+
+### 🧪 Scenario-Based Problems Solved
+
+* **RoboWarehouse – Shelf Loading Robot** *(Insertion Sort)*
+  Dynamically inserted packages by weight while maintaining ascending order for balance.
+
+* **CinemaHouse – Movie Time Sorting** *(Bubble Sort)*
+  Sorted a small list of daily movie showtimes using simple adjacent swaps.
+
+* **CropMonitor – Sensor Data Ordering** *(Quick Sort)*
+  Sorted large, unordered drone sensor timestamp data efficiently for visualization.
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+
