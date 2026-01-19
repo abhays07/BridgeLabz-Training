@@ -397,3 +397,115 @@ Worked on **real-world, scenario-driven DSA problems** focusing on practical usa
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
 
 ---
+
+## 📅 Week 2 – Day 2: Scenario-Based Sorting Algorithms
+
+**Branch:** `java-dsa-practice`
+
+* Solved **real-world scenario-based problems** using sorting algorithms
+* Applied **Bubble, Insertion, and Merge Sort** based on data characteristics
+* Focused on **practical system scenarios** where sorting improves workflows
+
+---
+
+### 🧪 Scenario-Based Sorting Problems Solved
+
+* **HospitalQueue – Patient Sorting by Criticality**
+  *(Bubble Sort)*
+  Sorted ER patients in-place by criticality levels for small datasets.
+
+* **SmartShelf – Real-Time Book Arrangement**
+  *(Insertion Sort)*
+  Maintained an alphabetically sorted book list as new books were added.
+
+* **ZipZipMart – Daily Sales Summary Report**
+  *(Merge Sort)*
+  Sorted large sales record lists by date and amount for stable, efficient reporting.
+
+---
+
+### 🔗 Code Link (Week 2 – Day 2)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+## 📅 Week 2 – Day 3: Scenario-Based Sorting Algorithms (Advanced)
+
+**Branch:** `java-dsa-practice`
+
+### 🧪 Scenario-Based Problems Solved
+
+* **EventManager – Ticket Price Optimizer**
+  *(Quick Sort)*
+  Sorted a large, unsorted dataset of ticket prices to efficiently display the top cheapest and most expensive tickets using recursive partitioning.
+
+* **ExamCell – Student Rank Generator**
+  *(Merge Sort)*
+  Merged and sorted student scores received from multiple exam centers to generate an accurate state-level rank list.
+
+---
+
+### 🔗 Code Link (Week 2 – Day 3)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+## 📅 Week 2 – Day 4: Scenario-Based Sorting Algorithms (Practical Use Cases)
+
+**Branch:** `java-dsa-practice`
+
+### 🧪 Scenario-Based Problems Solved
+
+* **RoboWarehouse – Shelf Loading Robot**
+  *(Insertion Sort)*
+  Dynamically inserted package weights into an already sorted list to maintain balance while loading shelves.
+
+* **CinemaHouse – Movie Time Sorting**
+  *(Bubble Sort)*
+  Sorted a small set of daily movie showtimes using simple adjacent comparisons for ease of manual updates.
+
+* **CropMonitor – Sensor Data Ordering**
+  *(Quick Sort)*
+  Sorted large, unordered soil temperature sensor data by timestamp for fast preprocessing before visualization.
+
+---
+
+### 🔗 Code Link (Week 2 – Day 4)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+## 📅 Week 2 – Day 5: Scenario-Based Sorting Algorithms (Real-World Use Cases)
+
+**Branch:** `java-dsa-practice`
+
+### 🧪 Problems Solved
+
+* **IceCreamRush – Sorting Flavors by Popularity**
+  *(Bubble Sort)*
+  Sorted weekly ice cream flavor sales using adjacent comparisons for a small dataset.
+
+* **SmartLibrary – Auto-Sort Borrowed Books**
+  *(Insertion Sort)*
+  Maintained an alphabetically sorted list of borrowed books as new entries were added dynamically.
+
+* **ArtExpo – Sort Artists by Registration Time**
+  *(Insertion Sort)*
+  Inserted artist registrations in real time while preserving sorted order by timestamp.
+
+* **FleetManager – Vehicle Maintenance Scheduler**
+  *(Merge Sort)*
+  Merged multiple depot-wise sorted vehicle lists into a single maintenance schedule.
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+
