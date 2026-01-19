@@ -508,4 +508,29 @@ Worked on **real-world, scenario-driven DSA problems** focusing on practical usa
 
 ---
 
+## 📘 Java DSA – Scenario Based Sorting Algorithms
+
+### 🔹 **Week 2 – Day 6: Scenario-Based Sorting Problems**
+
+**Branch:** `java-dsa-practice`
+
+Solved **real-world scenario-based problems** using different **sorting algorithms**, selecting the algorithm based on **dataset size, update frequency, and performance requirements**.
+
+**Problems Solved**
+
+* **EduResults – Rank Sheet Generator (Merge Sort)**
+  Merged district-wise sorted student score lists into a final state-level rank list using Merge Sort, ensuring efficiency and stability for large datasets.
+
+* **FlashDealz – Product Sorting by Discount (Quick Sort)**
+  Sorted millions of products by discount percentage during flash sales using Quick Sort for fast average-case performance on unsorted data.
+
+* **FitnessTracker – Daily Step Count Ranking (Bubble Sort)**
+  Generated daily step-count rankings for a small user group using Bubble Sort, suitable for frequent updates and small datasets.
+
+🔗 **Code Link:**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+
 
