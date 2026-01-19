@@ -429,3 +429,24 @@ Worked on **real-world, scenario-driven DSA problems** focusing on practical usa
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
 
 ---
+
+## 📅 Week 2 – Day 3: Scenario-Based Sorting Algorithms (Advanced)
+
+**Branch:** `java-dsa-practice`
+
+### 🧪 Scenario-Based Problems Solved
+
+* **EventManager – Ticket Price Optimizer**
+  *(Quick Sort)*
+  Sorted a large, unsorted dataset of ticket prices to efficiently display the top cheapest and most expensive tickets using recursive partitioning.
+
+* **ExamCell – Student Rank Generator**
+  *(Merge Sort)*
+  Merged and sorted student scores received from multiple exam centers to generate an accurate state-level rank list.
+
+---
+
+### 🔗 Code Link (Week 2 – Day 3)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
