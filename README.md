@@ -815,3 +815,33 @@ Solved real-world DSA problems combining **Linked Lists, Stacks, Queues, HashMap
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
 
 ---
+
+## 📅 Week 4 – Day 1: Scenario-Based Sorting Algorithms (DSA)
+
+**Branch:** `java-dsa-practice`
+
+### 🧪 Scenario-Based Problems Solved
+
+* **HospitalQueue – Patient Sorting by Criticality** *(Bubble Sort)*
+  Sorted ER patients by criticality levels using in-place adjacent comparisons for small datasets.
+
+* **SmartShelf – Real-Time Book Arrangement** *(Insertion Sort)*
+  Maintained an alphabetically sorted book list with dynamic insertions as new books are added.
+
+* **ZipZipMart – Daily Sales Summary Report** *(Merge Sort)*
+  Sorted large-scale transaction records by date and amount using divide-and-conquer merging.
+
+* **EventManager – Ticket Price Optimizer** *(Quick Sort)*
+  Optimized ticket price sorting for large, unsorted datasets to display cheapest and premium tickets efficiently.
+
+* **ExamCell – Student Rank Generator** *(Merge Sort)*
+  Merged and sorted scores from multiple exam centers to generate a state-level rank list.
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
