@@ -868,31 +868,57 @@ Solved real-world DSA problems combining **Linked Lists, Stacks, Queues, HashMap
 
 ---
 
-## 📅 Week 4 – Day 3: Scenario-Based Sorting Algorithms (DSA)
+## 🔹 Week 3 – Day 3: Scenario-Based OOP & DSA Problem Solving
+
+### 📌 Java OOP – Scenario-Based Applications
+
+**Branch:** `java-oops-practice`
+
+* Implemented **scenario-driven OOP problems** focusing on object modeling and encapsulation
+* Used **classes, constructors, methods, and access control**
+* Modeled real-world relationships using **composition and object interaction**
+
+**Problems Solved**
+
+* **GeoMeasure Solutions – Line Comparison System**
+
+  * Compared line segments using coordinate-based length calculation
+  * Encapsulated internal line data
+  * Supported multiple line comparisons using collections
+
+* **Bag-n-Ball Organizer – Toy Storage System**
+
+  * Modeled Bag–Ball relationship using composition
+  * Enforced bag capacity constraints
+  * Added, removed, and displayed balls per bag
+  * Prevented overflow conditions
+  * (Bonus) Common interface for storage behavior
+
+🔗 **Code Link (Java OOP):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
+### 📌 Java DSA – Scenario-Based Data Structure Problems
 
 **Branch:** `java-dsa-practice`
 
-### 🧪 Scenario-Based Problems Solved
+* Solved **real-world DSA scenarios** using linear data structures
+* Applied **Linked Lists, Stacks, Queues, and HashMaps**
+* Focused on traversal, insertion, deletion, and state tracking
 
-* **IceCreamRush – Sorting Flavors by Popularity** *(Bubble Sort)*
-  Sorted weekly ice-cream flavor sales for a small dataset using adjacent comparisons.
+**Problems Solved**
 
-* **SmartLibrary – Auto-Sort Borrowed Books** *(Insertion Sort)*
-  Maintained an alphabetically sorted borrowed-books list with dynamic insertions.
+* **BookShelf – Library Organizer** *(HashMap + Linked List)*
+* **BrowserBuddy – Tab History Manager** *(Doubly Linked List + Stack)*
+* **AmbulanceRoute – Emergency Patient Navigation** *(Circular Linked List)*
 
-* **ArtExpo – Artist Registration Ordering** *(Insertion Sort)*
-  Continuously sorted artist registrations by time as new entries arrived.
-
-* **FleetManager – Vehicle Maintenance Scheduler** *(Merge Sort)*
-  Merged multiple depot-wise sorted vehicle lists into a single master schedule.
-
----
-
-### 🔗 Code Link
-
-👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+🔗 **Code Link (Java DSA):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
 
 ---
+
+
 
 
 
