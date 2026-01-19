@@ -397,3 +397,35 @@ Worked on **real-world, scenario-driven DSA problems** focusing on practical usa
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com)
 
 ---
+
+## 📅 Week 2 – Day 2: Scenario-Based Sorting Algorithms
+
+**Branch:** `java-dsa-practice`
+
+* Solved **real-world scenario-based problems** using sorting algorithms
+* Applied **Bubble, Insertion, and Merge Sort** based on data characteristics
+* Focused on **practical system scenarios** where sorting improves workflows
+
+---
+
+### 🧪 Scenario-Based Sorting Problems Solved
+
+* **HospitalQueue – Patient Sorting by Criticality**
+  *(Bubble Sort)*
+  Sorted ER patients in-place by criticality levels for small datasets.
+
+* **SmartShelf – Real-Time Book Arrangement**
+  *(Insertion Sort)*
+  Maintained an alphabetically sorted book list as new books were added.
+
+* **ZipZipMart – Daily Sales Summary Report**
+  *(Merge Sort)*
+  Sorted large sales record lists by date and amount for stable, efficient reporting.
+
+---
+
+### 🔗 Code Link (Week 2 – Day 2)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
