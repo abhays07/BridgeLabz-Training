@@ -450,3 +450,30 @@ Worked on **real-world, scenario-driven DSA problems** focusing on practical usa
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
 
+---
+
+## 📅 Week 2 – Day 4: Scenario-Based Sorting Algorithms (Practical Use Cases)
+
+**Branch:** `java-dsa-practice`
+
+### 🧪 Scenario-Based Problems Solved
+
+* **RoboWarehouse – Shelf Loading Robot**
+  *(Insertion Sort)*
+  Dynamically inserted package weights into an already sorted list to maintain balance while loading shelves.
+
+* **CinemaHouse – Movie Time Sorting**
+  *(Bubble Sort)*
+  Sorted a small set of daily movie showtimes using simple adjacent comparisons for ease of manual updates.
+
+* **CropMonitor – Sensor Data Ordering**
+  *(Quick Sort)*
+  Sorted large, unordered soil temperature sensor data by timestamp for fast preprocessing before visualization.
+
+---
+
+### 🔗 Code Link (Week 2 – Day 4)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
