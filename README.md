@@ -1066,5 +1066,25 @@ Solved **advanced real-world, story-driven Java OOP problems** focusing on **inh
 
 ---
 
+## 📅 Week 3 – Day 1: Scenario-Based OOP Practice (Core OOP Foundations)
+
+**Branch:** `java-oops-practice`
+
+### 🧪 Problems Solved
+
+* **GeoMeasure Solutions – Line Comparison System**
+  Implemented a line comparison system where line objects are created using constructors, internal coordinates are encapsulated, lengths are calculated via methods, and multiple line comparisons are supported using a list.
+
+* **Bag-n-Ball Organizer – Toy Storage System**
+  Designed a composition-based model where a `Bag` maintains a collection of `Ball` objects. Implemented capacity checks, add/remove operations, and bag-wise reporting while enforcing encapsulation.
+  
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
 
 
