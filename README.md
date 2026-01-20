@@ -1077,14 +1077,46 @@ Solved **advanced real-world, story-driven Java OOP problems** focusing on **inh
 
 * **Bag-n-Ball Organizer – Toy Storage System**
   Designed a composition-based model where a `Bag` maintains a collection of `Ball` objects. Implemented capacity checks, add/remove operations, and bag-wise reporting while enforcing encapsulation.
-  
-
----
 
 ### 🔗 Code Link
 
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
 
 ---
+
+## 📘 Java OOP Practice – Week 3 Day 2
+
+### 🔹 Address Book System (Scenario-Based OOP Application)
+
+**Branch:** `java-oops-practice`
+
+Worked on a **real-world Address Book management system** simulating a contact management product for **DigiContact Pvt. Ltd.**, focusing on clean object design and collection handling.
+
+---
+
+### 📌 Scenario Implemented: Address Book System
+
+* Designed a `Contact` class with personal and communication details
+* Used constructors for initializing contact data
+* Applied encapsulation to protect sensitive fields
+* Implemented CRUD operations on contacts:
+
+  * Add new contact with duplicate validation
+  * Edit existing contact by name
+  * Delete contact by name
+* Implemented search functionality:
+
+  * Search contacts by city
+  * Search contacts by state
+* Displayed all contacts sorted alphabetically
+* Stored contacts using `ArrayList<Contact>`
+* Used optional composition with a separate `Address` class
+
+### 🔗 Code Link (Week 3 – Day 2)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
 
 
