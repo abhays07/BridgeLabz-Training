@@ -918,7 +918,92 @@ Solved real-world DSA problems combining **Linked Lists, Stacks, Queues, HashMap
 
 ---
 
+## 🔹 Week 3 – Day 4: Scenario-Based OOP & Java Collections Practice
 
+### 📌 Java OOP – Scenario-Based Applications
+
+**Branch:** `java-oops-practice`
+
+* Solved **real-world OOP scenario-based problems**
+* Applied **classes, objects, constructors, encapsulation, and access modifiers**
+* Modeled real systems using **composition and object interaction**
+* Used **collections** to store and manage domain objects
+
+**Problems Solved**
+
+* **Address Book System – DigiContact Pvt. Ltd.**
+
+  * Modeled `Contact` and optional `Address` using classes
+  * Added new contacts with duplicate validation
+  * Edited and deleted contacts by name
+  * Searched contacts by city or state
+  * Displayed all contacts sorted alphabetically
+  * Stored contacts using `ArrayList<Contact>`
+  * Encapsulated sensitive contact data using access modifiers
+
+🔗 **Code Link (Java OOP):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
+### 📌 Java Collections – List, Set, Queue & Map Practice
+
+**Branch:** `java-collections`
+
+* Practiced **Java Collections Framework** using real-world problems
+* Implemented logic using **List, Set, Queue, and Map interfaces**
+* Focused on **data uniqueness, ordering, grouping, and efficient retrieval**
+
+**Problems Solved**
+
+* **List Interface**
+
+  * Reverse a list (ArrayList & LinkedList)
+  * Find frequency of elements
+  * Rotate list elements
+  * Remove duplicates while preserving order
+  * Find Nth element from the end (LinkedList)
+
+* **Set Interface**
+
+  * Compare two sets for equality
+  * Union, intersection, and symmetric difference
+  * Convert set to sorted list
+  * Check subset relationships
+
+* **Queue Interface**
+
+  * Reverse a queue
+  * Generate binary numbers using queue
+  * Hospital triage system using `PriorityQueue`
+  * Implement stack using queues
+  * Circular buffer simulation
+
+* **Map Interface**
+
+  * Word frequency counter
+  * Invert a map with duplicate values
+  * Find key with maximum value
+  * Merge two maps
+  * Group objects by property
+
+* **Insurance Policy Management System**
+
+  * Policy storage using `HashSet`, `LinkedHashSet`, `TreeSet`
+  * Policy retrieval by expiry date and coverage type
+  * Performance comparison of Set implementations
+  * Policy management using `HashMap`, `LinkedHashMap`, `TreeMap`
+
+* **Additional Systems**
+
+  * Voting System
+  * Shopping Cart
+  * Banking System with queue-based request handling
+
+🔗 **Code Link (Java Collections):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/generics](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/generics)
+
+---
 
 
 
