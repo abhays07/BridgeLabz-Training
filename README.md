@@ -532,5 +532,31 @@ Solved **real-world scenario-based problems** using different **sorting algorith
 
 ---
 
+## 📅 Week 2 – Day 7: Scenario-Based Sorting Algorithms (Performance-Oriented Use Cases)
+
+**Branch:** `java-dsa-practice`
+
+### 🧪 Problems Solved
+
+* **MovieTime – Theater Show Listings**
+  *(Insertion Sort)*
+  Inserted newly added movie showtimes into an already sorted schedule using Insertion Sort, ideal for real-time updates and nearly sorted data.
+
+* **FoodFest – Sorting Stalls by Customer Footfall**
+  *(Merge Sort)*
+  Combined zone-wise, pre-sorted stall footfall data into a single master list using Merge Sort, ensuring stability and efficiency across large datasets.
+
+* **GamerZone – High Score Ranking System**
+  *(Quick Sort)*
+  Ranked thousands of players dynamically based on scores using Quick Sort, optimized for large, frequently changing, unsorted datasets.
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
 
 
