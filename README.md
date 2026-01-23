@@ -868,7 +868,7 @@ Solved real-world DSA problems combining **Linked Lists, Stacks, Queues, HashMap
 
 ---
 
-## 🔹 Week 3 – Day 3: Scenario-Based OOP & DSA Problem Solving
+## 🔹 Week 4 – Day 3: Scenario-Based OOP & DSA Problem Solving
 
 ### 📌 Java OOP – Scenario-Based Applications
 
@@ -918,7 +918,7 @@ Solved real-world DSA problems combining **Linked Lists, Stacks, Queues, HashMap
 
 ---
 
-## 🔹 Week 3 – Day 4: Scenario-Based OOP & Java Collections Practice
+## 🔹 Week 4 – Day 4: Scenario-Based OOP & Java Collections Practice
 
 ### 📌 Java OOP – Scenario-Based Applications
 
@@ -1005,5 +1005,55 @@ Solved real-world DSA problems combining **Linked Lists, Stacks, Queues, HashMap
 
 ---
 
+## 🔹 Week 4 – Day 5: Scenario-Based DSA & Java Collections (I/O Streams)
+
+### 📌 Java DSA – Scenario-Based Sorting Algorithms
+
+**Branch:** `java-dsa-practice`
+
+Solved **real-world sorting problems** by selecting appropriate algorithms based on **data size, update frequency, and performance needs**.
+
+**Problems Solved**
+
+* **MovieTime – Theater Show Listings**
+  *(Insertion Sort)*
+  Inserted new movie showtimes into an already sorted list, maintaining correct time-based order as shows were added throughout the day.
+
+* **FoodFest – Sorting Stalls by Customer Footfall**
+  *(Merge Sort)*
+  Combined multiple zone-wise sorted footfall logs into a single master list for performance evaluation across the entire festival.
+
+* **GamerZone – High Score Ranking System**
+  *(Quick Sort)*
+  Ranked thousands of players dynamically after each match using Quick Sort for fast average-case performance on large, unsorted datasets.
+
+🔗 **Code Link (Java DSA):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+### 📌 Java Collections – File Handling & Stream-Based Processing
+
+**Branch:** `java-collections`
+
+Worked on **Java I/O and Stream APIs**, covering file operations, performance optimization, serialization, and inter-thread communication.
+
+**Problems Solved**
+
+* File read & write using `FileInputStream` and `FileOutputStream`
+* Large file copy using buffered streams with performance comparison
+* Console input capture and persistence using `BufferedReader` and `FileWriter`
+* Object serialization and deserialization of employee records
+* Image conversion using byte array streams
+* Text transformation using filter streams (uppercase → lowercase)
+* Primitive data storage and retrieval using data streams
+* Inter-thread communication using piped streams
+* Large file line-by-line scanning with keyword filtering
+* Word frequency analysis with top-occurring words
+
+🔗 **Code Link (Java Collections):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/javastreams](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/javastreams)
+
+---
 
 
