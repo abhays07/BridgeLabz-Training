@@ -117,3 +117,48 @@ Worked on **core Java Collections Framework** by solving **problem-oriented and 
 
 ---
 
+## 📅 Week 1 – Day 3: Java I/O Streams & File Handling
+
+**Branch:** `java-collections`
+
+### 🧪 Problems Solved
+
+* **File Handling – Read & Write Text Files**
+  Read contents from a source file and wrote them into a new file using `FileInputStream` and `FileOutputStream`, with proper exception handling.
+
+* **Buffered Streams – Efficient File Copy**
+  Copied a large file using `BufferedInputStream` and `BufferedOutputStream`, measured performance with `System.nanoTime()`, and compared against unbuffered streams.
+
+* **Read User Input & Save to File**
+  Collected user details from console input using `BufferedReader` and wrote them to a file using `FileWriter`.
+
+* **Serialization – Save & Retrieve Objects**
+  Serialized a list of `Employee` objects to a file and then deserialized them using object streams.
+
+* **ByteArray Streams – Image Conversion**
+  Converted an image to a byte array using `ByteArrayInputStream`/`ByteArrayOutputStream` and recreated the image file.
+
+* **Filter Streams – Uppercase to Lowercase Conversion**
+  Read a text file and wrote its contents to another file with uppercase converted to lowercase using buffered character streams.
+
+* **Data Streams – Primitive Data I/O**
+  Stored and retrieved student primitive data using `DataOutputStream` and `DataInputStream`.
+
+* **Piped Streams – Inter-Thread Communication**
+  Implemented two-thread communication using `PipedOutputStream` and `PipedInputStream`.
+
+* **Large File Line-by-Line Reader**
+  Efficiently read a large text file line by line, printing only lines containing a specific keyword.
+
+* **Word Frequency Counter**
+  Counted word occurrences in a text file using a `HashMap` and displayed the top 5 most frequent words.
+
+---
+
+### 🔗 Code Link (Week 1 – Day 3)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/javastreams](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/javastreams)
+
+---
+
+
