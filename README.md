@@ -207,4 +207,46 @@ Practiced **core Java exception handling** through practical, real-world problem
 
 ---
 
+## 📅 Week 1 – Day 5: Regular Expressions & JUnit Testing
+
+**Branch:** `java-collections`
+
+Worked on **string pattern matching using Java Regex** and **unit testing with JUnit**, focusing on validation, extraction, replacement, and automated test coverage.
+
+---
+
+### 🧪 Java Regex – Practice Problems
+
+Implemented multiple **regex-based validation, extraction, and transformation tasks**, including:
+
+* Username, license plate, hex color, IP address, credit card, and SSN validation
+* Extracting emails, dates, URLs, currency values, programming language names
+* Identifying capitalized words and repeating words
+* Replacing multiple spaces and censoring bad words using patterns
+
+🔗 **Code Link (Regex):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/regex](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/regex)
+
+---
+
+### 🧪 JUnit – Unit Testing Practice
+
+Created **JUnit test cases** to validate core logic, exception handling, performance, and file operations:
+
+* Calculator operations and division-by-zero testing
+* String utility method testing (reverse, palindrome, uppercase)
+* List operations (add, remove, size validation)
+* Exception testing using `assertThrows`
+* Lifecycle testing using `@BeforeEach` and `@AfterEach`
+* Parameterized tests for multiple inputs
+* Timeout-based performance testing
+* File read/write testing with exception handling
+* Advanced testing for banking, password validation, temperature conversion, date formatting, and user registration
+
+🔗 **Code Link (JUnit):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junit](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junit)
+
+---
+
+
 
