@@ -559,4 +559,26 @@ Solved **real-world scenario-based problems** using different **sorting algorith
 ---
 
 
+## 📅 Week 3 – Day 1: Scenario-Based Sorting Algorithms (Deadline & Expiry Management)
+
+**Branch:** `java-dsa-practice`
+
+Solved **real-world, scenario-driven sorting problems** where algorithm choice was based on **data behavior, update frequency, and time sensitivity**.
+
+### 🧪 Problems Solved
+
+* **TailorShop – Sorting Orders by Delivery Deadline**
+  *(Insertion Sort)*
+  Managed hourly incoming tailoring orders by inserting each new order into an already sorted delivery-deadline list, ensuring fast real-time updates.
+
+* **MedWarehouse – Sorting Medicines by Expiry Date**
+  *(Merge Sort)*
+  Merged multiple branch-wise sorted medicine expiry lists into a single master list to track and prevent near-expiry inventory loss.
+
+🔗 **Code Link:**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+
 
