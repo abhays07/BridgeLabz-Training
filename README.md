@@ -161,4 +161,50 @@ Worked on **core Java Collections Framework** by solving **problem-oriented and 
 
 ---
 
+## 📅 Week 1 – Day 4: Exception Handling in Java (Scenario-Based Practice)
+
+**Branch:** `java-collections`
+
+Practiced **core Java exception handling** through practical, real-world problems focusing on controlled error handling and robust program behavior.
+
+### 🧪 Problems Solved
+
+* **Checked Exception – File Reading**
+  Read a text file and handled `IOException` with user-friendly messaging when the file doesn’t exist.
+
+* **Unchecked Exceptions – Safe Division**
+  Performed division with user input while handling `ArithmeticException` and `InputMismatchException`.
+
+* **Custom Exception – Age Validation**
+  Created and used `InvalidAgeException` to enforce age-based validation rules.
+
+* **Multiple Catch Blocks**
+  Safely accessed array elements with handling for `ArrayIndexOutOfBoundsException` and `NullPointerException`.
+
+* **Try-with-Resources**
+  Used automatic resource management to read a file’s first line.
+
+* **throw vs throws**
+  Implemented and propagated invalid input scenarios for financial calculations.
+
+* **finally Block Usage**
+  Demonstrated `finally` execution regardless of exception occurrence.
+
+* **Exception Propagation Across Methods**
+  Showed a thrown exception moving through multiple method layers and handled in `main()`.
+
+* **Nested try-catch Blocks**
+  Combined index access and division error handling using nested exception handling.
+
+* **Bank Transaction System**
+  Combined checked and custom exceptions to support withdrawal operations with multiple failure modes.
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/exceptions](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/exceptions)
+
+---
+
 
