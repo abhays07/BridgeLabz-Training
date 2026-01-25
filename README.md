@@ -1056,4 +1056,76 @@ Worked on **Java I/O and Stream APIs**, covering file operations, performance op
 
 ---
 
+## 🔹 Week 4 – Day 6: Scenario-Based DSA & Java Collections (Regex & JUnit)
+
+### 📌 Java DSA – Scenario-Based Sorting Problems
+
+**Branch:** `java-dsa-practice`
+
+Solved **real-world sorting problems** by selecting algorithms based on **data size, insertion pattern, and performance needs**.
+
+**Problems Solved**
+
+* **TailorShop – Sorting Orders by Delivery Deadline**
+  *(Insertion Sort)*
+  Inserted new tailoring orders into an already sorted list based on delivery deadlines, suitable for real-time order updates.
+
+* **MedWarehouse – Sorting Medicines by Expiry**
+  *(Merge Sort)*
+  Merged branch-wise sorted medicine expiry lists into a unified inventory to track time-sensitive stock efficiently.
+
+🔗 **Code Link (Java DSA):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/sortingalgorithms)
+
+---
+
+### 📌 Java Collections – Regular Expressions (Regex)
+
+**Branch:** `java-collections`
+
+Practiced **string validation, extraction, and transformation** using Java Regular Expressions.
+
+**Problems Covered**
+
+* Validation:
+
+  * Username, License Plate, Hex Color Code
+  * IP Address, Credit Card Number, SSN
+* Extraction:
+
+  * Email addresses, URLs, Dates
+  * Capitalized words, Programming languages, Currency values
+* Replacement & Analysis:
+
+  * Multiple space normalization
+  * Bad word censoring
+  * Repeating word detection
+
+🔗 **Code Link (Regex):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/regex](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/regex)
+
+---
+
+### 📌 Java Collections – JUnit Testing
+
+**Branch:** `java-collections`
+
+Implemented **unit and advanced test cases** using JUnit to validate application logic and exception handling.
+
+**JUnit Practice Included**
+
+* Calculator and utility method tests
+* List operation testing
+* Exception validation and edge cases
+* `@BeforeEach` / `@AfterEach` lifecycle testing
+* Parameterized tests
+* Timeout-based performance tests
+* File handling test cases
+* Banking, password validation, date formatting, and user registration tests
+
+🔗 **Code Link (JUnit):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junit](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junit)
+
+---
+
 
