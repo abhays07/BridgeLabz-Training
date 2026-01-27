@@ -5,6 +5,7 @@ public class Main {
 
         MusicAppBST app = new MusicAppBST();
 
+        //Insert Music with id number
         app.insert(new Music(1, "abc"));
         app.insert(new Music(4, "msndn"));
         app.insert(new Music(6, "sd"));

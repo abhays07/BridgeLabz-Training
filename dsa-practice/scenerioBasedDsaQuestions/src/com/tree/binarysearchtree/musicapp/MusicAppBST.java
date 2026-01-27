@@ -46,6 +46,7 @@ public class MusicAppBST {
         inorder(root);
     }
 
+    // Inorder traversal
     private void inorder(MusicNode root) {
         if (root != null) {
             inorder(root.left);
