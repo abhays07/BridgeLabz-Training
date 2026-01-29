@@ -1,0 +1,51 @@
+[ {
+  "id" : 1,
+  "name" : "John",
+  "department" : "IT",
+  "salary" : 60000.0
+}, {
+  "id" : 2,
+  "name" : "Alice",
+  "department" : "HR",
+  "salary" : 50000.0
+}, {
+  "id" : 3,
+  "name" : "Bob",
+  "department" : "Finance",
+  "salary" : 70000.0
+}, {
+  "id" : 4,
+  "name" : "Eva",
+  "department" : "IT",
+  "salary" : 80000.0
+}, {
+  "id" : 5,
+  "name" : "Tom",
+  "department" : "Sales",
+  "salary" : 45000.0
+}, {
+  "id" : 6,
+  "name" : "Rahul",
+  "department" : "IT",
+  "salary" : 75000.0
+}, {
+  "id" : 7,
+  "name" : "Priya",
+  "department" : "HR",
+  "salary" : 52000.0
+}, {
+  "id" : 8,
+  "name" : "Amit",
+  "department" : "Finance",
+  "salary" : 68000.0
+}, {
+  "id" : 9,
+  "name" : "Neha",
+  "department" : "Sales",
+  "salary" : 48000.0
+}, {
+  "id" : 10,
+  "name" : "Karan",
+  "department" : "IT",
+  "salary" : 90000.0
+} ]
