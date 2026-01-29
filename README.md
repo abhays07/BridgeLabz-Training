@@ -1128,4 +1128,91 @@ Implemented **unit and advanced test cases** using JUnit to validate application
 
 ---
 
+## 🔹 Week 4 – Day 7: Reflection, Annotations & CSV/JSON Data Handling
+
+### 📌 Java Collections – Reflection & Annotations
+
+**Branch:** `java-collections`
+
+Worked on **Java Reflection API** and **Java Annotations**, covering runtime class inspection, dynamic behavior, metadata processing, and annotation-driven logic.
+
+**Topics Covered**
+
+* Reflection:
+
+  * Class metadata inspection (methods, fields, constructors)
+  * Accessing private fields and methods
+  * Dynamic object creation
+  * Runtime method invocation
+  * Static field modification
+  * Custom object mapping
+  * Dynamic JSON generation
+  * Logging proxy and execution timing
+  * Dependency injection using annotations
+
+* Annotations:
+
+  * Built-in annotations (`@Override`, `@Deprecated`, `@SuppressWarnings`)
+  * Custom annotations creation and usage
+  * Repeatable annotations
+  * Annotation processing using Reflection
+  * Role-based access control
+  * Field validation
+  * Custom serialization
+  * Caching using annotations
+
+🔗 **Code Links (Java Collections):**
+👉 Reflection:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/reflection](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/reflection)
+
+👉 Annotations:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/annotations](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/annotations)
+
+---
+
+### 📌 Java IO Streams – CSV & JSON Data Handling
+
+**Branch:** `java-iostreams-practice`
+
+Implemented **real-world CSV and JSON processing workflows**, focusing on file handling, data validation, transformation, and format conversion.
+
+**Work Completed**
+
+* CSV Handling:
+
+  * Reading and writing CSV files
+  * Filtering, searching, updating, and sorting records
+  * Validating CSV data using regex
+  * Detecting duplicate records
+  * Converting CSV data into Java objects
+  * Merging multiple CSV files
+  * Processing large CSV files efficiently
+  * Encrypting and decrypting sensitive CSV fields
+
+* JSON Handling:
+
+  * Creating and parsing JSON objects and arrays
+  * Converting Java objects to JSON and vice versa
+  * Filtering JSON data
+  * Merging JSON files
+  * JSON ↔ CSV conversion
+  * JSON schema validation
+  * Generating JSON reports
+
+* Mini Project:
+
+  * **IPL Data Censor Analyzer**
+
+    * Read IPL match data from CSV and JSON
+    * Mask team names and redact player names
+    * Generate censored CSV and JSON outputs
+
+🔗 **Code Links (Java IO Streams):**
+👉 CSV Handling:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams/gcr-codebase/csvDataHandelling/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams/gcr-codebase/csvDataHandelling/src/com)
+
+👉 JSON Handling:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams/gcr-codebase/jsonDataHandelling/src/com/jsondatahandeling](https://github.com/abhays07/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams/gcr-codebase/jsonDataHandelling/src/com/jsondatahandeling)
+
+---
 
