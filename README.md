@@ -248,5 +248,66 @@ Created **JUnit test cases** to validate core logic, exception handling, perform
 
 ---
 
+### 🔹 Week 1 – Day 6: Reflection & Annotations in Java
 
+**Branch:** `java-collections`
+
+Worked on **Java Reflection API** and **Annotations**, covering basic to advanced use cases including runtime inspection, dynamic invocation, custom annotations, and annotation-driven behavior.
+
+---
+
+### 🧪 Java Reflection – Practice Problems
+
+**Basic Level**
+
+* Retrieved class metadata (fields, methods, constructors) dynamically
+* Accessed and modified private fields using Reflection
+* Invoked private methods at runtime
+* Created objects dynamically without using `new`
+
+**Intermediate Level**
+
+* Dynamically invoked methods based on user input
+* Retrieved custom annotations at runtime
+* Accessed and modified private static fields
+
+**Advanced Level**
+
+* Implemented a custom object mapper using Reflection
+* Generated JSON-like representation of objects dynamically
+* Built dynamic logging proxy using Reflection
+* Implemented simple dependency injection using annotations
+* Measured method execution time dynamically
+
+🔗 **Code Link (Reflection):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/reflection](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/reflection)
+
+---
+
+### 🧪 Java Annotations – Practice Problems
+
+* Used built-in annotations:
+
+  * `@Override`
+  * `@Deprecated`
+  * `@SuppressWarnings`
+* Created and applied custom annotations:
+
+  * `@TaskInfo`
+  * `@BugReport` (Repeatable)
+  * `@ImportantMethod`
+  * `@Todo`
+* Retrieved annotation metadata using Reflection
+* Implemented annotation-driven features:
+
+  * Execution time logging
+  * Field validation using `@MaxLength`
+  * Role-based access control using `@RoleAllowed`
+  * Custom JSON serialization using `@JsonField`
+  * Method result caching using `@CacheResult`
+
+🔗 **Code Link (Annotations):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/annotations](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/annotations)
+
+---
 
