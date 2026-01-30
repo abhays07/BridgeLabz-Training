@@ -311,3 +311,109 @@ Worked on **Java Reflection API** and **Annotations**, covering basic to advance
 
 ---
 
+## 📘 Java Collections – Scenario Based Practice
+
+### 🔹 Week 1 – Day 7: Advanced Scenario-Based Applications using Collections, Generics, I/O & Regex
+
+**Branch:** `java-collections`
+
+Worked on **end-to-end, real-world Java applications** integrating **Collections Framework**, **Generics**, **I/O Streams**, **Regex**, **custom exceptions**, and **sorting mechanisms**. The focus was on **data parsing, validation, categorization, and analytics** using production-style problem statements.
+
+---
+
+### 🧪 Scenario-Based Problems Implemented
+
+* **ResumeAnalyzer – Smart Resume Filtering System**
+
+  * Read resume files from folders using I/O streams
+  * Extracted emails, phone numbers, and skills using Regex
+  * Indexed candidates using `Map<String, ResumeData>`
+  * Ranked resumes based on keyword match count
+  * Skipped invalid resumes using exception handling
+
+* **TravelLog – Trip Organizer for Backpackers**
+
+  * Stored trip entries using object serialization
+  * Extracted cities using Regex
+  * Identified long-duration trips
+  * Tracked unique countries using `Set`
+  * Calculated top 3 most visited cities using `Map` and sorting
+
+* **FeedbackGuru – Smart Survey Analyzer**
+
+  * Parsed multiple feedback `.txt` files
+  * Extracted ratings using Regex
+  * Categorized feedback into Positive / Neutral / Negative
+  * Used Generics to support flexible feedback types
+  * Handled malformed data safely
+
+* **CodeRepoCleaner – Java File Scanner & Organizer**
+
+  * Scanned nested `.java` files using I/O
+  * Detected naming violations and unused imports via Regex
+  * Categorized files into Valid, Warnings, and Errors
+  * Managed file metadata using `List`, `Map`, and `Set`
+
+* **ExamScanner – Digital Answer Sheet Validator**
+
+  * Parsed CSV answer sheets using `BufferedReader`
+  * Validated answer formats using Regex
+  * Calculated scores using `Map<Student, Score>`
+  * Ranked students using `PriorityQueue`
+
+---
+
+### 🧪 Additional Scenario-Based Applications
+
+* **MedInventory – Smart Hospital Inventory Tracker**
+
+  * Read daily inventory CSV files using buffered I/O
+  * Detected expired medical supplies using Regex on dates
+  * Categorized items using `Map<String, List<Item>>`
+  * Removed duplicate items using `Set`
+  * Used Generics for extensible inventory types
+  * Threw custom exceptions for critically low stock
+
+* **ChatLogParser – Messaging Pattern Analyzer**
+
+  * Parsed chat logs using `BufferedReader`
+  * Extracted timestamp, user, and messages using Regex
+  * Stored user-wise messages using `TreeMap`
+  * Filtered idle chat using configurable keyword rules
+  * Applied Generics and interfaces for flexible message filtering
+
+* **SongVault – Personal Music Library Manager**
+
+  * Read song metadata from text files using I/O
+  * Extracted song details using Regex
+  * Grouped songs by genre using `Map`
+  * Identified unique artists using `Set`
+  * Supported filtering and sorting with Java Streams
+  * Enabled media-type extensibility using Generics
+
+* **ExamResultUploader – Bulk Marks Processing System**
+
+  * Read and validated CSV marksheets using buffered I/O
+  * Verified format correctness using Regex
+  * Stored subject-wise marks using `Map`
+  * Identified top scorers using `PriorityQueue`
+  * Used Generics for different exam types
+  * Raised custom exceptions for invalid records
+
+* **DealTracker – E-Commerce Discount Validator**
+
+  * Parsed deal files using `FileInputStream`
+  * Extracted discount details using Regex
+  * Filtered expired deals using date validation
+  * Stored valid deals in `Map<String, Deal>`
+  * Prevented duplicates using `Set`
+  * Sorted deals by discount using `Comparator`
+  * Designed with Generics for future promotion types
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/scenerio-based/scenerioBasedCollections/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/scenerio-based/scenerioBasedCollections/src/com)
+
+---
