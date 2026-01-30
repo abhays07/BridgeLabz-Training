@@ -1377,3 +1377,60 @@ Worked on **complex, real-world Java systems** focusing on **data processing, va
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/scenerio-based/scenerioBasedCollections/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/scenerio-based/scenerioBasedCollections/src/com)
 
 ---
+
+## 📅 Week 5 – Day 3: Scenario-Based Annotations, Reflection & Data Processing
+
+Worked on **enterprise-style, scenario-driven Java problems** combining **Annotations, Reflection, CSV handling, and JSON processing**.
+Focused on building **backend utilities** that scan metadata, validate structured data, and generate machine-readable outputs.
+
+---
+
+### 📌 Java I/O Streams & Metadata Processing
+
+**Branch:** `java-iostreams-practice`
+
+Implemented **real-world systems** that process files, inspect runtime metadata, and export structured results using Java core features.
+
+---
+
+### 🧪 Scenario-Based Problems Implemented
+
+#### **HealthCheckPro – API Metadata Validator**
+
+*(Annotations + Reflection)*
+
+* Scanned controller classes using Reflection
+* Detected missing or invalid custom annotations
+* Processed API-level metadata dynamically
+* Generated structured API validation output
+
+---
+
+#### **MarkMate – Student Marksheet Generator**
+
+*(CSV + JSON)*
+
+* Read student marks from CSV files
+* Processed subject-wise scores per student
+* Calculated total, average, and grade
+* Exported report cards in JSON format
+* Handled invalid or malformed entries safely
+
+---
+
+#### **EventTracker – Auto Audit System**
+
+*(Annotations + Reflection + JSON)*
+
+* Identified methods marked with audit annotations
+* Captured runtime metadata such as timestamps and method info
+* Generated structured JSON audit logs
+* Designed reusable audit logic for enterprise systems
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams/scenerio-based/scenerioBasedQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams/scenerio-based/scenerioBasedQuestions/src/com)
+
+---
