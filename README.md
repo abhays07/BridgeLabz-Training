@@ -1216,3 +1216,66 @@ Implemented **real-world CSV and JSON processing workflows**, focusing on file h
 
 ---
 
+## 🔹 Week 5 – Day 1: Scenario-Based Tree Data Structures (BST & AVL)
+
+This day focused on **tree-based data structures** using **real-world, scenario-driven problems**, implementing **Binary Search Trees (BST)** and **AVL Trees** to handle efficient searching, insertion, deletion, and ordered data traversal.
+
+---
+
+### 📌 Java DSA – Tree Data Structures
+
+**Branch:** `java-dsa-practice`
+
+---
+
+### 🧪 Scenario-Based Problems Solved
+
+#### **Binary Search Tree (BST)**
+
+* **University Digital Record System**
+
+  * Insert student records using roll numbers
+  * Delete records when students leave
+  * Display student roll numbers in sorted order
+
+* **E-Commerce Product Inventory**
+
+  * Search products using SKU numbers
+  * Update product details by SKU
+  * Display all products in sorted SKU order
+
+* **Music App – Track Management**
+
+  * Search tracks using track IDs
+  * Insert newly released tracks
+  * Display playlist using in-order traversal
+
+---
+
+#### **AVL Tree**
+
+* **Gaming App – Real-Time Leaderboard**
+
+  * Insert and update player scores dynamically
+  * Remove players on ban or exit
+  * Maintain balanced rankings automatically
+
+* **Online Ticket Booking System**
+
+  * Insert events sorted by start time
+  * Cancel and delete events
+  * Display upcoming events in order
+
+* **Hospital Queue Management**
+
+  * Register patients by check-in time
+  * Remove discharged patients
+  * Display patients in arrival order with balanced lookups
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/tree](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/tree)
+
+---
