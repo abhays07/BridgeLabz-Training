@@ -580,5 +580,64 @@ Solved **real-world, scenario-driven sorting problems** where algorithm choice w
 
 ---
 
+## 🔹 Week 3 – Day 2: Scenario-Based Tree Data Structures (BST & AVL)
+
+**Branch:** `java-dsa-practice`
+
+Worked on **tree-based data structures** using **real-world, scenario-driven problems**, focusing on **Binary Search Trees (BST)** and **AVL Trees** for efficient insertion, deletion, searching, and ordered traversal.
+
+---
+
+### 🧪 Scenario-Based Problems Solved
+
+#### **Binary Search Tree (BST)**
+
+* **University Digital Record System**
+
+  * Insert student records by roll number
+  * Delete records on student exit
+  * Display roll numbers in sorted order
+
+* **E-Commerce Product Inventory**
+
+  * Search products using SKU
+  * Update product details by SKU
+  * Display inventory in sorted order
+
+* **Music App – Track Management**
+
+  * Search songs using track ID
+  * Insert new tracks dynamically
+  * Display playlist using in-order traversal
+
+---
+
+#### **AVL Tree**
+
+* **Gaming App – Real-Time Leaderboard**
+
+  * Insert and update player scores
+  * Remove players on ban or exit
+  * Maintain balanced rankings
+
+* **Online Ticket Booking System**
+
+  * Insert events by start time
+  * Delete cancelled events
+  * Display upcoming events in order
+
+* **Hospital Queue Management**
+
+  * Register patients by arrival time
+  * Discharge and remove records
+  * Display patients in arrival order with balanced lookups
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/tree](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/tree)
+
+---
 
 
