@@ -58,3 +58,52 @@ Worked on **file-based data processing** using Java IO Streams, focusing on **CS
 
 ---
 
+## 📅 Week 1 – Day 2: Scenario-Based I/O, Annotations & Reflection
+
+**Branch:** `java-iostreams-practice`
+
+Worked on **real-world, scenario-driven Java problems** integrating **Annotations, Reflection, CSV handling, and JSON processing**. Focused on building **tool-like backend utilities** that scan metadata, process structured files, and generate machine-readable outputs.
+
+---
+
+### 🧪 Scenario-Based Problems Implemented
+
+#### **HealthCheckPro – API Metadata Validator**
+
+*(Annotations + Reflection)*
+
+* Scanned controller classes using Reflection
+* Detected missing or incorrect API-level annotations
+* Processed custom annotations like access-level markers
+* Auto-generated structured API metadata for validation and documentation
+
+---
+
+#### **MarkMate – Student Marksheet Generator**
+
+*(CSV + JSON)*
+
+* Read student marks from CSV files
+* Processed subject-wise scores per student
+* Calculated total, average, and grade
+* Exported final report cards in JSON format
+* Handled invalid or malformed records gracefully
+
+---
+
+#### **EventTracker – Auto Audit System**
+
+*(Annotations + Reflection + JSON)*
+
+* Identified methods marked with audit annotations using Reflection
+* Captured runtime metadata such as timestamps and method details
+* Generated structured JSON audit logs for user actions
+* Designed reusable audit logic for enterprise-style systems
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams/scenerio-based/scenerioBasedQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams/scenerio-based/scenerioBasedQuestions/src/com)
+
+---
