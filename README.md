@@ -1279,3 +1279,101 @@ This day focused on **tree-based data structures** using **real-world, scenario-
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/tree](https://github.com/abhays07/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenerioBasedDsaQuestions/src/com/tree)
 
 ---
+
+## 🔹 Week 5 – Day 2: Advanced Scenario-Based Java Applications (Collections, Generics, I/O & Regex)
+
+Worked on **complex, real-world Java systems** focusing on **data processing, validation, analytics, and categorization** using **Collections Framework**, **Generics**, **I/O Streams**, **Regex**, **custom exceptions**, and **sorting mechanisms**.
+
+---
+
+### 📌 Scenario-Based Applications Implemented
+
+* **ResumeAnalyzer – Smart Resume Filtering System**
+
+  * Processed resume files using I/O streams
+  * Extracted emails, phone numbers, and skills using Regex
+  * Indexed candidates using `Map<String, ResumeData>`
+  * Ranked resumes based on keyword match count
+  * Skipped invalid resumes with exception handling
+
+* **TravelLog – Trip Organizer for Backpackers**
+
+  * Stored trip entries using object serialization
+  * Extracted cities using Regex
+  * Identified long-duration trips
+  * Tracked unique countries using `Set`
+  * Computed top visited cities using `Map` and sorting
+
+* **FeedbackGuru – Smart Survey Analyzer**
+
+  * Parsed feedback `.txt` files using buffered I/O
+  * Extracted ratings via Regex
+  * Grouped feedback into Positive, Neutral, and Negative categories
+  * Used Generics for flexible feedback types
+  * Handled malformed records safely
+
+* **CodeRepoCleaner – Java File Scanner & Organizer**
+
+  * Scanned nested Java source files using I/O
+  * Detected naming violations and unused imports using Regex
+  * Categorized files into Valid, Warnings, and Errors
+  * Managed file metadata using `List`, `Map`, and `Set`
+
+* **ExamScanner – Digital Answer Sheet Validator**
+
+  * Parsed CSV answer sheets using `BufferedReader`
+  * Validated formatting with Regex
+  * Calculated scores using `Map<Student, Score>`
+  * Ranked students using `PriorityQueue`
+
+---
+
+### 📌 Extended Scenario-Based Systems
+
+* **MedInventory – Smart Hospital Inventory Tracker**
+
+  * Parsed daily inventory CSV files
+  * Detected expired items using Regex-based date validation
+  * Categorized inventory using `Map<String, List<Item>>`
+  * Removed duplicates using `Set`
+  * Raised custom exceptions for critical stock levels
+
+* **ChatLogParser – Messaging Pattern Analyzer**
+
+  * Extracted timestamps, users, and messages using Regex
+  * Stored user-wise messages using `TreeMap`
+  * Filtered idle chat using keyword rules
+  * Applied Generics and interfaces for flexible filtering
+
+* **SongVault – Personal Music Library Manager**
+
+  * Parsed song metadata from text files
+  * Grouped songs by genre using `Map`
+  * Identified unique artists using `Set`
+  * Enabled filtering and sorting via Streams
+  * Designed with Generics for media extensibility
+
+* **ExamResultUploader – Bulk Marks Processing System**
+
+  * Validated and processed marks CSV files
+  * Stored subject-wise marks using `Map`
+  * Identified top scorers using `PriorityQueue`
+  * Used Generics for multiple exam types
+  * Threw custom exceptions for invalid records
+
+* **DealTracker – E-Commerce Discount Validator**
+
+  * Parsed deal files using I/O streams
+  * Extracted discount details using Regex
+  * Filtered expired deals using date validation
+  * Stored valid deals in `Map<String, Deal>`
+  * Prevented duplicates using `Set`
+  * Sorted deals using `Comparator`
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/scenerio-based/scenerioBasedCollections/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/scenerio-based/scenerioBasedCollections/src/com)
+
+---
