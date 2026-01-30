@@ -1434,3 +1434,57 @@ Implemented **real-world systems** that process files, inspect runtime metadata,
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams/scenerio-based/scenerioBasedQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams/scenerio-based/scenerioBasedQuestions/src/com)
 
 ---
+
+## 📅 Week 5 – Day 4: Java 8 Programming – Lambdas & Method References
+
+Worked on **Java 8 functional programming concepts** with a strong focus on **Lambda Expressions and Method References** to simplify code, reduce boilerplate, and enable behavior-driven design.
+All implementations were done in a **new dedicated branch** to keep Java 8 concepts isolated and well-structured.
+
+---
+
+### 📌 Java 8 – Lambda Expressions
+
+**Branch:** `java8-programming-practice`
+
+Implemented real-world scenarios where **lambdas replace traditional class-based logic** and enable dynamic behavior selection.
+
+#### 🧪 Scenarios Implemented
+
+* **Smart Home Lighting Automation**
+  Used lambda expressions to dynamically define light activation patterns based on triggers like motion detection, time of day, and voice commands—without creating multiple concrete classes.
+
+* **Custom Sorting in E-Commerce**
+  Applied lambda-based `Comparator` implementations to sort products dynamically by price, rating, or discount during different sales campaigns.
+
+* **Notification Filtering System**
+  Used `Predicate` lambdas to filter hospital notifications based on user preferences, allowing flexible and readable alert filtering logic.
+
+---
+
+### 📌 Java 8 – Method References
+
+Focused on improving **code readability and expressiveness** by replacing lambda expressions with method references where applicable.
+
+#### 🧪 Scenarios Implemented
+
+* **Hospital Patient ID Printing**
+  Printed patient IDs using method references for cleaner iteration and logging.
+
+* **Employee Name Uppercasing**
+  Converted employee names to uppercase using `String::toUpperCase` within stream pipelines.
+
+* **Invoice Object Creation**
+  Used constructor references to generate invoice objects directly from transaction IDs.
+
+---
+
+### 🔗 Code Links
+
+👉 **Lambda Expressions**
+[https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/lambdaexpressions](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/lambdaexpressions)
+
+👉 **Method References**
+[https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/methodreference](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/methodreference)
+
+---
+
