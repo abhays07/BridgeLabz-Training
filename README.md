@@ -1488,3 +1488,82 @@ Focused on improving **code readability and expressiveness** by replacing lambda
 
 ---
 
+## 📅 Week 5 – Day 5: Java 8 Programming – Interfaces, Functional Interfaces & Advanced Interface Features
+
+**Branch:** `java8-programming-practice`
+
+Worked on **interface-driven design and Java 8 interface enhancements**, focusing on clean abstraction, backward compatibility, and functional-style programming.
+
+---
+
+### 🔹 Interface-Based Design
+
+* **Smart Device Control Interface**
+  Implemented a common interface for devices like Light, AC, and TV with `turnOn()` and `turnOff()` behaviors.
+
+* **Multi-Vehicle Rental System**
+  Designed an interface-based rental workflow for Car, Bike, and Bus using shared `rent()` and `returnVehicle()` methods.
+
+* **Digital Payment Interface**
+  Unified payment processing across UPI, Credit Card, and Wallet using a common `pay()` contract.
+
+---
+
+### 🔹 Functional Interfaces (Java 8)
+
+* **Temperature Alert System**
+  Used `Predicate<Double>` to trigger alerts when temperature crosses a threshold.
+
+* **String Length Checker**
+  Applied `Function<String, Integer>` to evaluate message length constraints.
+
+* **Background Job Execution**
+  Implemented asynchronous task execution using the `Runnable` functional interface.
+
+---
+
+### 🔹 Static Methods in Interfaces
+
+* **Password Strength Validator**
+  Centralized password policy validation using static interface methods.
+
+* **Unit Conversion Tool**
+  Implemented standard unit conversions (km→miles, kg→lbs) as static utilities.
+
+* **Date Format Utility**
+  Provided reusable date formatting logic through static interface methods.
+
+---
+
+### 🔹 Default Methods in Interfaces
+
+* **Payment Gateway Integration**
+  Added a default `refund()` method to support new functionality without breaking existing implementations.
+
+* **Data Export Feature**
+  Introduced `exportToJSON()` as a default method to extend export formats seamlessly.
+
+* **Smart Vehicle Dashboard**
+  Used default methods to extend vehicle dashboards with battery status for electric vehicles.
+
+---
+
+### 🔹 Marker Interfaces
+
+* **Data Serialization for Backup**
+  Marked classes eligible for backup processing using a marker interface.
+
+* **Cloning Prototype Objects**
+  Used `Cloneable` to support object cloning workflows.
+
+* **Sensitive Data Tagging**
+  Created a custom marker interface to identify data requiring encryption.
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/interfaces](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/interfaces)
+
+---
+
