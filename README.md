@@ -417,3 +417,39 @@ Worked on **end-to-end, real-world Java applications** integrating **Collections
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/scenerio-based/scenerioBasedCollections/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/scenerio-based/scenerioBasedCollections/src/com)
 
 ---
+
+## 📅 Week 2 – Day 1: Advanced String & Collections Problem
+
+**Branch:** `java-collections`
+
+Solved an **advanced, logic-heavy problem** combining **string manipulation, conditional flows, and collections-based filtering**, focusing on correctness, validations, and clean transformations.
+
+---
+
+### 🧩 Problem Solved
+
+#### **Lexical Twist – Advanced Word Processing Puzzle**
+
+Implemented a puzzle-driven program that processes **two input words** with multiple conditional transformations:
+
+* Validated inputs to ensure **single-word correctness**
+* Checked whether the second word is the **reverse of the first (case-insensitive)**
+* Applied different transformation pipelines based on the condition:
+
+  * Reverse + lowercase + vowel masking (`@`)
+  * Word combination + uppercase conversion
+  * Vowel vs consonant counting
+  * Extracting first two **distinct vowels or consonants**
+  * Handling equal-count scenarios gracefully
+* Ensured clean termination without using `System.exit(0)`
+
+The solution handles **edge cases**, **string traversal**, and **deduplication logic** accurately.
+
+---
+
+### 🔗 Code Link
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/advancedquestions/lexicaltwist](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/advancedquestions/lexicaltwist)
+
+---
+
