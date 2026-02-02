@@ -1567,3 +1567,64 @@ Worked on **interface-driven design and Java 8 interface enhancements**, focusin
 
 ---
 
+## 📅 Week 5 – Day 6: Java 8 Stream API & Advanced Collections Problem Solving
+
+Worked on **two different branches** focusing on **modern Java functional programming** and **advanced string/collections logic**, applying concepts in real-world, scenario-driven problems.
+
+---
+
+## 📌 Java 8 – Stream API & forEach Practice
+
+**Branch:** `java8-programming-practice`
+
+Implemented multiple **Stream API** and **forEach** based scenarios to process, filter, transform, and analyze data efficiently.
+
+### 🧪 Problems Covered
+
+**Stream API**
+
+* **Top 5 Trending Movies** – Filtered and sorted movies by rating and release year
+* **Hospital Doctor Availability** – Filtered weekend-available doctors and sorted by specialty
+* **Insurance Claim Analysis** – Calculated average claim amount per claim type
+* **Filtering Expiring Memberships** – Identified gym members expiring within 30 days
+* **Transforming Names for Display** – Converted names to uppercase and sorted alphabetically
+
+**forEach Method**
+
+* **Stock Price Logger** – Printed live stock price updates
+* **Event Attendee Welcome Message** – Displayed welcome messages using lambdas
+* **IoT Sensor Readings** – Printed readings above threshold
+* **Email Notifications** – Sent notifications to user emails
+* **Transaction Logging** – Logged transaction IDs with timestamps
+
+🔗 **Code Link (Java 8):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/streamapi](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/streamapi)
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/foreach](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/foreach)
+
+---
+
+## 📌 Java Collections – Advanced Problem
+
+**Branch:** `java-collections`
+
+Solved an **advanced conditional string-processing challenge** combining validation, transformation, and character analysis.
+
+### 🧩 Problem Solved
+
+**Lexical Twist – Advanced Word Puzzle**
+
+* Validated single-word inputs
+* Checked reverse-word condition (case-insensitive)
+* Applied transformation pipelines:
+
+  * Reverse + lowercase + vowel masking
+  * Word combination + uppercase conversion
+  * Vowel vs consonant counting
+  * Extracted first two distinct vowels or consonants
+* Handled equal-count and invalid-input scenarios cleanly
+* Ensured graceful termination without `System.exit(0)`
+
+🔗 **Code Link (Java Collections):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/advancedquestions/lexicaltwist](https://github.com/abhays07/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/advancedquestions/lexicaltwist)
+
+---
