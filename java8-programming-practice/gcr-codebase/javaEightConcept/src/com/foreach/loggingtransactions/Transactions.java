@@ -21,7 +21,6 @@ public class Transactions {
 		transactionIds.add("TXN1009");
 		transactionIds.add("TXN1010");
 
-		transactionIds.forEach(id -> 
-		System.out.println(LocalDateTime.now() + " - Transaction: " + id));
+		transactionIds.forEach(id -> System.out.println(LocalDateTime.now() + " - Transaction: " + id));
 	}
 }
