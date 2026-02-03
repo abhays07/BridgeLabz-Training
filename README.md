@@ -131,3 +131,59 @@ Worked on **interface-driven design and Java 8 interface enhancements**, focusin
 
 ---
 
+## 📅 Week 1 – Day 3: Stream API & forEach() in Real-World Scenarios
+
+**Branch:** `java8-programming-practice`
+
+Worked on **Java 8 Stream API and forEach()** to process, filter, transform, and analyze collections using a functional and declarative approach.
+
+---
+
+### 🔹 Stream API – Scenario-Based Problems
+
+* **Top 5 Trending Movies**
+  Filtered and sorted a large movie list by rating and release year, then selected the top 5 using `filter()`, `sorted()`, and `limit()`.
+
+* **Hospital Doctor Availability**
+  Identified doctors available on weekends and sorted them by specialty using streams.
+
+* **Insurance Claim Analysis**
+  Calculated the average claim amount per claim type using `groupingBy()` and `averagingDouble()`.
+
+* **Filtering Expiring Memberships**
+  Filtered gym members whose memberships expire within the next 30 days using date-based stream filtering.
+
+* **Transforming Names for Display**
+  Converted customer names to uppercase using `map()` and displayed them alphabetically using `sorted()`.
+
+---
+
+### 🔹 forEach() Method – Practical Use Cases
+
+* **Stock Price Logger**
+  Printed live stock price updates using `forEach()`.
+
+* **Event Attendee Welcome Message**
+  Displayed personalized welcome messages for all attendees using `forEach()` with lambdas.
+
+* **IoT Sensor Readings**
+  Printed sensor readings above a defined threshold using streams combined with `forEach()`.
+
+* **Email Notifications**
+  Sent notification emails to a list of users using `forEach()`.
+
+* **Transaction Logging**
+  Logged transaction IDs with timestamps using `forEach()` and `LocalDateTime`.
+
+---
+
+### 🔗 Code Links
+
+👉 Stream API:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/streamapi](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/streamapi)
+
+👉 forEach():
+[https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/foreach](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/foreach)
+
+---
+
