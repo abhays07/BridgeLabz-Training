@@ -187,3 +187,65 @@ Worked on **Java 8 Stream API and forEach()** to process, filter, transform, and
 
 ---
 
+## 📅 Week 1 – Day 4: Java 8 Collectors & Scenario-Based Stream Queries
+
+**Branch:** `java8-programming-practice`
+
+Worked on **Collectors API** and **real-time scenario-based Stream problems**, focusing on grouping, aggregation, summarization, and analytical queries using Java 8.
+
+---
+
+## 📌 Java 8 – Collectors Practice
+
+Implemented multiple problems using **Collectors** to transform and aggregate data efficiently.
+
+### 🧪 Problems Solved
+
+* **Student Result Grouping**
+  Grouped students by grade level and collected student names using `Collectors.groupingBy()`.
+
+* **Word Frequency Counter**
+  Analyzed a paragraph and counted word occurrences using `Collectors.toMap()`.
+
+* **Order Revenue Summary**
+  Calculated total order revenue per customer using `Collectors.summingDouble()`.
+
+* **Employee Salary Categorization**
+  Grouped employees by department and calculated **average salary per department** using
+  `Collectors.groupingBy()` + `Collectors.averagingDouble()`.
+
+* **Library Book Statistics**
+  Generated **total pages, average pages, and maximum pages per genre** using
+  `Collectors.summarizingInt()`.
+
+🔗 **Code Link (Collectors):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/collectors](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/javaEightConcept/src/com/collectors)
+
+---
+
+## 📌 Java 8 – Scenario-Based Employee Analytics (Streams + Collectors)
+
+Solved a **comprehensive real-time analytics problem** on employee data using Streams and Collectors.
+
+### 🧪 Scenario Covered
+
+Performed analytical queries on employee attributes such as **gender, department, salary, age, and experience**.
+
+**Key Queries Implemented**
+
+* Male vs Female employee count
+* Department-wise employee listing and count
+* Average age and salary by gender and department
+* Highest, lowest, second/third highest & lowest paid employees
+* Employees joined after 2015
+* Most experienced employee
+* Salary-based filtering (above 25k)
+* Top 5 highest and lowest paid employees
+* Total and average salary of the organization
+* Youngest employee in a specific department
+
+🔗 **Code Link (Scenario-Based Streams):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenerioBasedQuestions/src/com/employeeinformation](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenerioBasedQuestions/src/com/employeeinformation)
+
+---
+
