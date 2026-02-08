@@ -214,3 +214,90 @@ Understood how these methods influence:
 
 ---
 
+## 📅 Week 1 – Day 3: Scenario-Based Multi-Threading – Bank Transactions System
+
+**Branch:** `java-design-patterns-practice`
+
+Worked on a **scenario-based multi-threading problem** to understand **thread safety, synchronization, and concurrent data access** in Java through a real-world **Bank Transactions** use case.
+
+The focus was on **preventing race conditions**, maintaining **data consistency**, and ensuring **correct account balances** when multiple customers perform transactions simultaneously.
+
+---
+
+## 📌 Scenario Overview
+
+### 🏦 Bank Transactions – Concurrent Access Handling
+
+A simple banking system was designed where:
+
+* The bank maintains **multiple customer accounts**
+* Each account has a balance
+* Multiple customers perform **deposit and withdrawal operations concurrently**
+
+The challenge was to ensure that **simultaneous transactions do not corrupt account data**.
+
+---
+
+## 🔹 Core Components Implemented
+
+### 1️⃣ **Bank Class**
+
+Implemented a central `Bank` class responsible for managing accounts and balances.
+
+**Key Methods:**
+
+* `deposit(int accountNumber, int amount)`
+* `withdraw(int accountNumber, int amount)`
+* `getBalance(int accountNumber)`
+
+🔐 **Thread Safety Measures**
+
+* Used **synchronization mechanisms** to protect critical sections
+* Ensured atomic updates to account balances
+* Prevented race conditions during concurrent deposits and withdrawals
+
+---
+
+### 2️⃣ **Customer Class**
+
+* Each customer is represented as a **separate thread**
+* Each customer has a unique customer ID
+* Executes a sequence of deposit and withdrawal operations on an account
+* Simulates real-world concurrent banking behavior
+
+---
+
+### 3️⃣ **Main / Driver Class**
+
+* Created multiple `Customer` threads
+* Started all customer threads concurrently
+* Displayed:
+
+  * Transaction execution sequence
+  * Intermediate transaction logs
+  * Final account balances after all threads completed
+
+---
+
+## 🧪 Demonstration Highlights
+
+* Multiple customers depositing and withdrawing at the same time
+* Correct balance maintained even under heavy concurrency
+* Clear console output showing:
+
+  * Which customer performed which transaction
+  * Updated balances after each operation
+  * Final verified balance after all threads finished
+
+---
+
+## 🔗 Code Link
+
+👉 Scenario-Based Multi-Threading – Bank Transactions
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-design-patterns-practice/java-design-patterns-practice/java-multithreading-practice/scenerioBasedQuestions/src/com](https://github.com/abhays07/BridgeLabz-Training/tree/java-design-patterns-practice/java-design-patterns-practice/java-multithreading-practice/scenerioBasedQuestions/src/com)
+
+---
+
+
+
+
