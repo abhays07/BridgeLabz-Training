@@ -1684,3 +1684,83 @@ Solved a **large real-world analytics scenario** on employee data using Java Str
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenerioBasedQuestions/src/com/employeeinformation](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenerioBasedQuestions/src/com/employeeinformation)
 
 ---
+
+## 📅 Week 6 – Day 1: Java 8 Programming – Smart City Transport & Service Management System
+
+Worked on a **large-scale, real-world Java 8 case study** focusing on **modern functional programming, interface-driven design, and stream-based analytics** to model a **Smart City Transport & Service Management System**.
+
+This system integrates **buses, metros, taxis, and EV charging stations** to manage routes, schedules, passenger data, and real-time dashboards in a clean and extensible way.
+
+---
+
+### 📌 Scenario Overview
+
+The City Council plans to launch a unified platform to:
+
+* Optimize transport routes and schedules
+* Process and analyze passenger and revenue data
+* Display live dashboards for city-wide transport services
+* Seamlessly extend the system to future services like ferries or bike rentals
+
+The solution leverages **Java 8 features** to ensure flexibility, readability, and scalability.
+
+---
+
+### 🔹 Java 8 Features & Design Concepts Applied
+
+* **Lambda Expressions**
+  Used for filtering and sorting transport schedules based on user preferences such as earliest departure time and lowest fare.
+
+* **Method References**
+  Applied for concise printing of available services, logging operations, and invoking static utility methods for fare calculations.
+
+* **Default Methods in Interfaces**
+  Defined common behavior like `printServiceDetails()` in the `TransportService` interface, shared across all transport types.
+
+* **Static Methods in Interfaces**
+  Implemented utility logic such as `calculateDistance()` inside a `GeoUtils` interface for distance computation.
+
+* **Stream API**
+  Used to group and aggregate passenger data, calculate revenue, and identify top-used routes.
+
+* **forEach() Method**
+  Displayed live schedules of all active transport services on dashboards.
+
+* **Collectors API**
+
+  * `groupingBy()` – Grouped passengers by route
+  * `partitioningBy()` – Separated peak vs non-peak trips
+  * `summarizingDouble()` – Calculated total and average fares
+
+* **Interface-Based Design**
+  Implemented `TransportService` using:
+
+  * `BusService`
+  * `MetroService`
+  * `TaxiService`
+
+* **Functional Interfaces**
+  Created a `FareCalculator` functional interface, implemented using lambdas for flexible fare computation.
+
+* **Marker Interfaces**
+  Used an `EmergencyService` marker interface to prioritize services like Ambulance and Fire Service that can bypass traffic rules.
+
+---
+
+### 🔹 Real-Time System Flow
+
+1. Passenger books a trip → Lambda expressions filter and sort available services
+2. Dashboard updates → `forEach()` displays live transport schedules
+3. Revenue reports generated → Collectors group and summarize data
+4. System expansion → New services added by implementing interfaces
+5. Emergency handling → Marker interface detects and prioritizes emergency services
+
+---
+
+### 🔗 Code Link
+
+👉 Smart City Transport & Service Management System
+[https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenerioBasedQuestions/src/com/workshop/smartcitytransportandservicemanagement](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenerioBasedQuestions/src/com/workshop/smartcitytransportandservicemanagement)
+
+---
+
