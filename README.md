@@ -249,3 +249,91 @@ Performed analytical queries on employee attributes such as **gender, department
 
 ---
 
+## 📅 Week 1 – Day 5: Java 8 Smart City Transport & Service Management (End-to-End Scenario)
+
+**Branch:** `java8-programming-practice`
+
+Worked on a **large-scale, real-world Java 8 scenario** that integrates **multiple Java 8 concepts into a single cohesive system** simulating a **Smart City Transport & Service Management Platform**.
+
+---
+
+## 🏙️ Smart City Transport & Service Management System
+
+### 🔹 Scenario Overview
+
+The City Council aims to build a unified system to manage **buses, metros, taxis, EV charging stations, and emergency services**, focusing on **real-time dashboards, extensibility, and performance** using modern Java 8 features.
+
+---
+
+### 🔹 Java 8 Concepts Applied (Scenario Mapping)
+
+* **Lambda Expressions**
+
+  * Filtered and sorted transport schedules based on user preferences such as **earliest departure** and **lowest fare**.
+
+* **Method References**
+
+  * Used for printing service details, logging activities, and invoking utility methods for fare calculations.
+
+* **Default Methods in Interfaces**
+
+  * `TransportService` interface defines default behavior like `printServiceDetails()` shared by all transport types.
+
+* **Static Methods in Interfaces**
+
+  * `GeoUtils.calculateDistance()` computes distance between locations without object instantiation.
+
+* **Stream API**
+
+  * Aggregated passenger data
+  * Calculated revenue
+  * Identified top-used routes
+  * Generated analytics for dashboards
+
+* **forEach()**
+
+  * Displayed live transport schedules and active services on dashboards.
+
+* **Collectors**
+
+  * `groupingBy()` → Group passengers by route
+  * `partitioningBy()` → Separate peak vs non-peak trips
+  * `summarizingDouble()` → Total, average, and maximum fares collected
+
+* **Functional Interfaces**
+
+  * `FareCalculator` implemented using lambdas for dynamic fare computation.
+
+* **Marker Interfaces**
+
+  * `EmergencyService` identifies services that can bypass traffic rules (ambulance, fire service).
+
+* **Interface-Based Design**
+
+  * `TransportService` implemented by:
+
+    * `BusService`
+    * `MetroService`
+    * `TaxiService`
+  * Easily extensible to new services like **FerryService** or **BikeRentalService**.
+
+---
+
+### 🔄 Real-Time System Flow
+
+1. Passenger books a trip → Lambda filters and sorts available services
+2. Dashboard updates → `forEach()` displays live schedules
+3. Revenue analytics → Streams + Collectors generate reports
+4. System expansion → New services added via interfaces
+5. Emergency handling → Marker interface prioritizes services
+
+---
+
+### 🔗 Code Link
+
+👉 Smart City Transport System:
+[https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenerioBasedQuestions/src/com/workshop/smartcitytransportandservicemanagement](https://github.com/abhays07/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenerioBasedQuestions/src/com/workshop/smartcitytransportandservicemanagement)
+
+---
+
+
