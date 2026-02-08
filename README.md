@@ -1764,3 +1764,79 @@ The solution leverages **Java 8 features** to ensure flexibility, readability, a
 
 ---
 
+## 📅 Week 6 – Day 2: Java Design Patterns – Smart University Library Management System (GoF)
+
+Worked on a **comprehensive case study using Gang of Four (GoF) Design Patterns**, focusing on **scalability, consistency, and clean architecture** through a **Smart University Library Management System**.
+
+The goal was to understand how **multiple design patterns coexist and collaborate** in a single real-world application.
+
+---
+
+### 📌 Case Study Overview
+
+The **Smart University Library** aims to build a next-generation digital platform to manage:
+
+* Centralized book catalog
+* Multiple user roles
+* Real-time notifications
+* Flexible book creation
+
+The system was designed using **four core GoF patterns**:
+**Singleton, Factory, Observer, and Builder**.
+
+---
+
+### 🔹 Design Patterns Implemented
+
+#### **1. Singleton – Centralized Library Catalog**
+
+* Ensured **only one instance** of `LibraryCatalog` exists across the system
+* Prevented data inconsistency when accessed by students, faculty, or librarians
+* Managed books and observer subscriptions centrally
+
+✅ Guarantees a single global source of truth for library data
+
+---
+
+#### **2. Factory – Dynamic User Creation**
+
+* Created users dynamically based on role input at runtime
+* Supported multiple user types:
+
+  * `Student`
+  * `Faculty`
+  * `Librarian`
+* Eliminated tight coupling between client code and user classes
+
+✅ Enables easy extension (e.g., Guest, Admin) without modifying existing logic
+
+---
+
+#### **3. Observer – Notification System**
+
+* Allowed students and faculty to **subscribe for book availability notifications**
+* Automatically notified all registered users when a new book was added
+* Supported multiple subscribers for the same event
+
+✅ Achieved loose coupling between catalog updates and user notifications
+
+---
+
+#### **4. Builder – Flexible Book Creation**
+
+* Constructed complex `Book` objects with:
+
+  * Mandatory fields (title)
+  * Optional fields (author, edition, genre, publisher)
+* Enabled step-by-step object construction without constructor overloads
+
+✅ Simplified creation of rich domain objects with optional attributes
+
+---
+
+### 🔗 Code Link
+
+👉 Smart University Library Management System (Design Patterns)
+[https://github.com/abhays07/BridgeLabz-Training/tree/java-design-patterns-practice/java-design-patterns-practice/design-patterns/gcr-codebase/javaDesignPatternsConcept/src/com/smartuniversitymanagementsystem](https://github.com/abhays07/BridgeLabz-Training/tree/java-design-patterns-practice/java-design-patterns-practice/design-patterns/gcr-codebase/javaDesignPatternsConcept/src/com/smartuniversitymanagementsystem)
+
+---
