@@ -1,0 +1,80 @@
+CREATE TABLE specialties (
+    ->     specialization_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     specialization_name VARCHAR(50) UNIQUE NOT NULL
+    -> );
+
+
+INSERT INTO specialties (specialization_name) VALUES
+    -> ('Cardiologist'),
+    -> ('Dermatologist'),
+    -> ('Orthopedic'),
+    -> ('Gynecologist'),
+    -> ('Neurologist'),
+    -> ('Pediatrician'),
+    -> ('Psychiatrist'),
+    -> ('ENT Specialist'),
+    -> ('Ophthalmologist'),
+    -> ('General Physician');
+    
+    SELECT * FROM specialties;
++-------------------+---------------------+
+| specialization_id | specialization_name |
++-------------------+---------------------+
+|                 1 | Cardiologist        |
+|                 2 | Dermatologist       |
+|                 8 | ENT Specialist      |
+|                10 | General Physician   |
+|                 4 | Gynecologist        |
+|                 5 | Neurologist         |
+|                 9 | Ophthalmologist     |
+|                 3 | Orthopedic          |
+|                 6 | Pediatrician        |
+|                 7 | Psychiatrist        |
++-------------------+---------------------+
+
+UPDATE specialties
+    -> SET specialization_name = 'Heart Specialist'
+    -> WHERE specialization_name = 'Cardiologist';
+
+
+ SELECT * FROM specialties WHERE specialization_id = 1;
++-------------------+---------------------+
+| specialization_id | specialization_name |
++-------------------+---------------------+
+|                 1 | Heart Specialist    |
++-------------------+---------------------+
+
+INSERT INTO specialties (specialization_name)
+VALUES ('Urologist');
+
+
+SELECT COUNT(*) AS doctor_count
+FROM doctor_management
+WHERE specialization_id = 1;
++--------------+
+| doctor_count |
++--------------+
+|            1 |
++--------------+
+
+DELETE FROM specialties
+WHERE specialization_name = 'Urologist';
+
+SELECT * FROM specialties;
++-------------------+---------------------+
+| specialization_id | specialization_name |
++-------------------+---------------------+
+|                 2 | Dermatologist       |
+|                 8 | ENT Specialist      |
+|                10 | General Physician   |
+|                 4 | Gynecologist        |
+|                 1 | Heart Specialist    |
+|                 5 | Neurologist         |
+|                 9 | Ophthalmologist     |
+|                 3 | Orthopedic          |
+|                 6 | Pediatrician        |
+|                 7 | Psychiatrist        |
++-------------------+---------------------+
+
+
+

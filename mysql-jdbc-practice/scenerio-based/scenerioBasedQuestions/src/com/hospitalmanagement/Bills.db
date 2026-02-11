@@ -1,0 +1,113 @@
+🔹 Create Bills Table
+CREATE TABLE bills (
+    bill_id INT AUTO_INCREMENT PRIMARY KEY,
+    visit_id INT NOT NULL,
+    bill_date DATE DEFAULT (CURRENT_DATE),
+    amount DECIMAL(10,2),
+    payment_status VARCHAR(20) DEFAULT 'UNPAID',
+    FOREIGN KEY (visit_id) REFERENCES visits(visit_id)
+);
+
+🔹 UC-5.1: Generate Bill for Visit
+INSERT INTO bills (visit_id, bill_date, amount, payment_status)
+VALUES (1, '2026-02-09', 800, 'UNPAID');
+
+INSERT INTO bills (visit_id, bill_date, amount, payment_status)
+VALUES
+(9,  '2026-02-01', 600, 'PAID'),
+(10, '2026-02-02', 700, 'UNPAID'),
+(11, '2026-02-02', 650, 'UNPAID'),
+(12, '2026-02-03', 900, 'PAID'),
+(13, '2026-02-03', 500, 'UNPAID'),
+(14, '2026-02-04', 550, 'UNPAID');
+
+🔹 View All Bills
++---------+----------+--------+----------------+------------+
+| bill_id | visit_id | amount | payment_status | bill_date  |
++---------+----------+--------+----------------+------------+
+|       8 |        1 | 800.00 | UNPAID         | 2026-02-09 |
+|       9 |        9 | 600.00 | PAID           | 2026-02-01 |
+|      10 |       10 | 700.00 | UNPAID         | 2026-02-02 |
+|      11 |       11 | 650.00 | UNPAID         | 2026-02-02 |
+|      12 |       12 | 900.00 | PAID           | 2026-02-03 |
+|      13 |       13 | 500.00 | UNPAID         | 2026-02-03 |
+|      14 |       14 | 550.00 | UNPAID         | 2026-02-04 |
++---------+----------+--------+----------------+------------+
+
+🔹 UC-5.2: Record Payment (Mark Bill as PAID)
+UPDATE bills
+SET payment_status = 'PAID'
+WHERE bill_id = 1;
+
+🔹 UC-5.3: View Outstanding Bills (Grouped by Patient)
+SELECT
+    p.id AS patient_id,
+    p.name AS patient_name,
+    COUNT(b.bill_id) AS unpaid_bills,
+    SUM(b.amount) AS total_due
+FROM bills b
+JOIN visits v ON b.visit_id = v.visit_id
+JOIN appointments a ON v.appointment_id = a.appointment_id
+JOIN patient_details p ON a.patient_id = p.id
+WHERE b.payment_status = 'UNPAID'
+GROUP BY p.id, p.name;
++------------+--------------+--------------+-----------+
+| patient_id | patient_name | unpaid_bills | total_due |
++------------+--------------+--------------+-----------+
+|          1 | Abhay Singh  |            1 |    800.00 |
+|          2 | Rahul Verma  |            1 |    700.00 |
+|          3 | Neha Sharma  |            1 |    650.00 |
+|          5 | Priya Patel  |            1 |    500.00 |
+|          6 | Rohit Meena  |            1 |    550.00 |
++------------+--------------+--------------+-----------+
+
+🔹 UC-5.4: Generate Revenue Report (Doctor-wise)
+SELECT
+    d.name AS doctor_name,
+    SUM(b.amount) AS total_revenue
+FROM bills b
+JOIN visits v ON b.visit_id = v.visit_id
+JOIN appointments a ON v.appointment_id = a.appointment_id
+JOIN doctor_management d ON a.doctor_id = d.id
+WHERE b.payment_status = 'PAID'
+GROUP BY d.name;
+
++-----------------+---------------+
+| doctor_name     | total_revenue |
++-----------------+---------------+
+| Dr. Amit Sharma |        600.00 |
+| Dr. Priya Singh |        900.00 |
++-----------------+---------------+
+
+🔹 Revenue Report by Date Range & Threshold
+SELECT
+    DATE(b.bill_date) AS bill_date,
+    SUM(b.amount) AS daily_revenue
+FROM bills b
+WHERE b.bill_date BETWEEN '2026-02-01' AND '2026-02-05'
+GROUP BY b.bill_date
+HAVING SUM(b.amount) > 500;
+
++------------+---------------+
+| bill_date  | daily_revenue |
++------------+---------------+
+| 2026-02-01 |        600.00 |
+| 2026-02-02 |       1350.00 |
+| 2026-02-03 |       1400.00 |
+| 2026-02-04 |        550.00 |
++------------+---------------+
+
+🔹 Final Verification
+SELECT bill_id, visit_id, amount, payment_status
+FROM bills;
++---------+----------+--------+----------------+
+| bill_id | visit_id | amount | payment_status |
++---------+----------+--------+----------------+
+|       8 |        1 | 800.00 | UNPAID         |
+|       9 |        9 | 600.00 | PAID           |
+|      10 |       10 | 700.00 | UNPAID         |
+|      11 |       11 | 650.00 | UNPAID         |
+|      12 |       12 | 900.00 | PAID           |
+|      13 |       13 | 500.00 | UNPAID         |
+|      14 |       14 | 550.00 | UNPAID         |
++---------+----------+--------+----------------+

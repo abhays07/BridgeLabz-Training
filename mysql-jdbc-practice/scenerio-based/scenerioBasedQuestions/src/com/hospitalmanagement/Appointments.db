@@ -1,0 +1,140 @@
+ 🔹 Create Appointments Table
+ CREATE TABLE appointments (
+    ->     appointment_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     patient_id INT NOT NULL,
+    ->     doctor_id INT NOT NULL,
+    ->     appointment_date DATE NOT NULL,
+    ->     appointment_time TIME NOT NULL,
+    ->     status VARCHAR(20) DEFAULT 'SCHEDULED',
+    ->     FOREIGN KEY (patient_id) REFERENCES patient_details(id),
+    ->     FOREIGN KEY (doctor_id) REFERENCES doctor_management(id)
+    -> );
+  
+🔹 UC-3.1: Book New Appointments (Insert Data)  
+insert into appointments (patient_id, doctor_id, appointment_date, appointment_time) values (1,2,"2026-02-10", "10:30:00");
+
+
+INSERT INTO appointments
+(patient_id, doctor_id, appointment_date, appointment_time, status)
+VALUES
+(1, 1, '2026-02-01', '10:00:00', 'COMPLETED'),
+(2, 2, '2026-02-01', '11:00:00', 'COMPLETED'),
+(3, 3, '2026-02-02', '10:30:00', 'COMPLETED'),
+(4, 4, '2026-02-02', '12:00:00', 'COMPLETED'),
+(5, 5, '2026-02-03', '09:30:00', 'COMPLETED'),
+(6, 6, '2026-02-03', '11:15:00', 'COMPLETED'),
+(1, 7, '2026-02-04', '10:45:00', 'COMPLETED');
+
+🔹 View All Appointments
+SELECT * FROM appointments;
++----------------+------------+-----------+------------------+------------------+-----------+
+| appointment_id | patient_id | doctor_id | appointment_date | appointment_time | status    |
++----------------+------------+-----------+------------------+------------------+-----------+
+|              1 |          1 |         2 | 2026-02-10       | 10:30:00         | COMPLETED |
+|              2 |          1 |         1 | 2026-02-01       | 10:00:00         | COMPLETED |
+|              3 |          2 |         2 | 2026-02-01       | 11:00:00         | COMPLETED |
+|              4 |          3 |         3 | 2026-02-02       | 10:30:00         | COMPLETED |
+|              5 |          4 |         4 | 2026-02-02       | 12:00:00         | COMPLETED |
+|              6 |          5 |         5 | 2026-02-03       | 09:30:00         | COMPLETED |
+|              7 |          6 |         6 | 2026-02-03       | 11:15:00         | COMPLETED |
+|              8 |          1 |         7 | 2026-02-04       | 10:45:00         | COMPLETED |
+|              9 |          1 |         1 | 2026-02-01       | 10:00:00         | COMPLETED |
+|             10 |          2 |         2 | 2026-02-01       | 11:00:00         | COMPLETED |
+|             11 |          3 |         3 | 2026-02-02       | 10:30:00         | COMPLETED |
+|             12 |          4 |         4 | 2026-02-02       | 12:00:00         | COMPLETED |
+|             13 |          5 |         5 | 2026-02-03       | 09:30:00         | COMPLETED |
+|             14 |          6 |         6 | 2026-02-03       | 11:15:00         | COMPLETED |
+|             15 |          1 |         7 | 2026-02-04       | 10:45:00         | COMPLETED |
++----------------+------------+-----------+------------------+------------------+-----------+
+
+🔹  Check Doctor Availability
+ SELECT appointment_time, COUNT(*) AS bookings
+    -> FROM appointments
+    -> WHERE doctor_id = 2
+    -> AND appointment_date = '2026-02-01'
+    -> GROUP BY appointment_time;
++------------------+----------------+
+| appointment_time | total_bookings |
++------------------+----------------+
+| 11:00:00         |              2 |
++------------------+----------------+
+
+🔹 Cancel Appointment
+UPDATE appointments
+    -> SET status = 'CANCELLED'
+    -> WHERE appointment_id = 1;
+    
+SELECT appointment_id, status FROM appointments WHERE appointment_id = 1;
++----------------+-----------+
+| appointment_id | status    |
++----------------+-----------+
+|              1 | COMPLETED |
++----------------+-----------+
+
+🔹 UC-3.4: Reschedule Appointment (Transaction)
+START TRANSACTION;
+
+UPDATE appointments
+SET appointment_date = '2026-02-11',
+    appointment_time = '11:00:00',
+    doctor_id = 3
+WHERE appointment_id = 1;
+
+COMMIT;
+
+🔹 UC-3.5: View Daily Appointment Schedule
+SELECT
+    a.appointment_time,
+    p.name AS patient_name,
+    d.name AS doctor_name,
+    a.status
+FROM appointments a
+JOIN patient_details p ON a.patient_id = p.id
+JOIN doctor_management d ON a.doctor_id = d.id
+WHERE a.appointment_date = '2026-02-01'
+ORDER BY a.appointment_time;
++------------------+--------------+-----------------+-----------+
+| appointment_time | patient_name | doctor_name     | status    |
++------------------+--------------+-----------------+-----------+
+| 10:00:00         | Abhay Singh  | Dr. Amit Sharma | COMPLETED |
+| 10:00:00         | Abhay Singh  | Dr. Amit Sharma | COMPLETED |
+| 11:00:00         | Rahul Verma  | Dr. Neha Verma  | COMPLETED |
+| 11:00:00         | Rahul Verma  | Dr. Neha Verma  | COMPLETED |
++------------------+--------------+-----------------+-----------+
+
+🔹 View Appointments by Patient
+SELECT *
+FROM appointments
+WHERE patient_id = 1;
++----------------+------------+-----------+------------------+------------------+-----------+
+| appointment_id | patient_id | doctor_id | appointment_date | appointment_time | status    |
++----------------+------------+-----------+------------------+------------------+-----------+
+|              1 |          1 |         3 | 2026-02-11       | 11:00:00         | COMPLETED |
+|              2 |          1 |         1 | 2026-02-01       | 10:00:00         | COMPLETED |
+|              8 |          1 |         7 | 2026-02-04       | 10:45:00         | COMPLETED |
+|              9 |          1 |         1 | 2026-02-01       | 10:00:00         | COMPLETED |
+|             15 |          1 |         7 | 2026-02-04       | 10:45:00         | COMPLETED |
++----------------+------------+-----------+------------------+------------------+-----------+
+
+🔹 Final Verification
+SELECT appointment_id, patient_id, doctor_id, appointment_date, status
+    -> FROM appointments;
++----------------+------------+-----------+------------------+-----------+
+| appointment_id | patient_id | doctor_id | appointment_date | status    |
++----------------+------------+-----------+------------------+-----------+
+|              1 |          1 |         3 | 2026-02-11       | COMPLETED |
+|              2 |          1 |         1 | 2026-02-01       | COMPLETED |
+|              3 |          2 |         2 | 2026-02-01       | COMPLETED |
+|              4 |          3 |         3 | 2026-02-02       | COMPLETED |
+|              5 |          4 |         4 | 2026-02-02       | COMPLETED |
+|              6 |          5 |         5 | 2026-02-03       | COMPLETED |
+|              7 |          6 |         6 | 2026-02-03       | COMPLETED |
+|              8 |          1 |         7 | 2026-02-04       | COMPLETED |
+|              9 |          1 |         1 | 2026-02-01       | COMPLETED |
+|             10 |          2 |         2 | 2026-02-01       | COMPLETED |
+|             11 |          3 |         3 | 2026-02-02       | COMPLETED |
+|             12 |          4 |         4 | 2026-02-02       | COMPLETED |
+|             13 |          5 |         5 | 2026-02-03       | COMPLETED |
+|             14 |          6 |         6 | 2026-02-03       | COMPLETED |
+|             15 |          1 |         7 | 2026-02-04       | COMPLETED |
++----------------+------------+-----------+------------------+-----------+

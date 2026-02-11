@@ -1,0 +1,108 @@
+🔹 Create Visits Table
+CREATE TABLE visits (
+    visit_id INT AUTO_INCREMENT PRIMARY KEY,
+    appointment_id INT,
+    diagnosis VARCHAR(255),
+    notes TEXT,
+    visit_date DATE,
+    FOREIGN KEY (appointment_id) 
+        REFERENCES appointments(appointment_id)
+);
+
+
+🔹 Insert Values Into the Table
+
+INSERT INTO visits (appointment_id, diagnosis, notes)
+VALUES (1, 'Viral Fever', 'Rest and hydration');
+
+INSERT INTO visits (appointment_id, diagnosis, notes, visit_date)
+VALUES
+(2, 'Skin Allergy', 'Ointment prescribed', '2026-02-01'),
+(3, 'Back Pain', 'Physiotherapy advised', '2026-02-02'),
+(4, 'Routine Checkup', 'Normal condition', '2026-02-02'),
+(5, 'Migraine', 'Painkillers prescribed', '2026-02-03'),
+(6, 'Child Cold', 'Syrup given', '2026-02-03'),
+(7, 'ENT Infection', 'Antibiotics prescribed', '2026-02-04');
+
+🔹 Update Appointment Status to COMPLETED (Same Flow – UC-4.1)
+UPDATE appointments
+SET status = 'COMPLETED'
+WHERE appointment_id = 1;
+
+🔹 View All Visits
+SELECT * FROM visits;
+
++----------+----------------+-----------------+------------------------+------------+
+| visit_id | appointment_id | diagnosis       | notes                  | visit_date |
++----------+----------------+-----------------+------------------------+------------+
+|        1 |              1 | Viral Fever     | Rest and hydration     | 2026-02-09 |
+|        9 |              2 | Skin Allergy    | Ointment prescribed    | 2026-02-01 |
+|       10 |              3 | Back Pain       | Physiotherapy advised  | 2026-02-02 |
+|       11 |              4 | Routine Checkup | Normal condition       | 2026-02-02 |
+|       12 |              5 | Migraine        | Painkillers prescribed | 2026-02-03 |
+|       13 |              6 | Child Cold      | Syrup given            | 2026-02-03 |
+|       14 |              7 | ENT Infection   | Antibiotics prescribed | 2026-02-04 |
++----------+----------------+-----------------+------------------------+------------+
+
+🔹 UC-4.2: View Patient Medical History (Chronological)
+SELECT
+    p.id AS patient_id,
+    p.name AS patient_name,
+    d.name AS doctor_name,
+    v.diagnosis,
+    v.notes,
+    v.visit_date
+FROM visits v
+JOIN appointments a ON v.appointment_id = a.appointment_id
+JOIN patient_details p ON a.patient_id = p.id
+JOIN doctor_management d ON a.doctor_id = d.id
+WHERE p.id = 1
+ORDER BY v.visit_date DESC;
++------------+--------------+-----------------+--------------+---------------------+------------+
+| patient_id | patient_name | doctor_name     | diagnosis    | notes               | visit_date |
++------------+--------------+-----------------+--------------+---------------------+------------+
+|          1 | Abhay Singh  | Dr. Rahul Mehta | Viral Fever  | Rest and hydration  | 2026-02-09 |
+|          1 | Abhay Singh  | Dr. Amit Sharma | Skin Allergy | Ointment prescribed | 2026-02-01 |
++------------+--------------+-----------------+--------------+---------------------+------------+
+
+
+🔹 View Visit History by Appointment
+SELECT
+    v.visit_id,
+    v.diagnosis,
+    v.visit_date
+FROM visits v
+WHERE v.appointment_id = 3;
+
++----------+-----------+------------+
+| visit_id | diagnosis | visit_date |
++----------+-----------+------------+
+|       10 | Back Pain | 2026-02-02 |
++----------+-----------+------------+
+
+🔹 Verification Join (Visits ↔ Appointments)
+SELECT
+    v.visit_id,
+    a.appointment_date,
+    a.appointment_time,
+    v.diagnosis
+FROM visits v
+JOIN appointments a
+ON v.appointment_id = a.appointment_id;
+
++----------+------------------+------------------+-----------------+
+| visit_id | appointment_date | appointment_time | diagnosis       |
++----------+------------------+------------------+-----------------+
+|        1 | 2026-02-11       | 11:00:00         | Viral Fever     |
+|        9 | 2026-02-01       | 10:00:00         | Skin Allergy    |
+|       10 | 2026-02-01       | 11:00:00         | Back Pain       |
+|       11 | 2026-02-02       | 10:30:00         | Routine Checkup |
+|       12 | 2026-02-02       | 12:00:00         | Migraine        |
+|       13 | 2026-02-03       | 09:30:00         | Child Cold      |
+|       14 | 2026-02-03       | 11:15:00         | ENT Infection   |
++----------+------------------+------------------+-----------------+
+
+
+
+
+

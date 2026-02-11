@@ -1,0 +1,67 @@
+create database patient_management;
+
+use patient_management;
+Database changed
+
+create table patient_details (id int auto_increment primary key, name varchar(50), contact varchar(15) unique, address varchar(255), blood_group varchar(255));
+
+insert into patient_details (name, contact, address, blood_group) values ("Abhay", "+919340056987", "Panna, Madhya Pradesh", "A+");
+insert into patient_details (name, contact, address, blood_group) values ('Rahul Verma', '9123456789', 'Delhi', 'A+'),
+    -> ('Neha Sharma', '9988776655', 'Mumbai, Maharashtra', 'B+'),
+    -> ('Aman Gupta', '9000011111', 'Indore, Madhya Pradesh', 'AB+'),
+    -> ('Priya Patel', '9898989898', 'Ahmedabad, Gujarat', 'O-'),
+    -> ('Rohit Meena', '9765432109', 'Kota, Rajasthan', 'B-');
+    
+   
+select * from patient_details;
++----+-------------+---------------+------------------------+-------------+
+| id | name        | contact       | address                | blood_group |
++----+-------------+---------------+------------------------+-------------+
+|  1 | Abhay       | +919340056987 | Panna, Madhya Pradesh  | A+          |
+|  2 | Rahul Verma | 9123456789    | Delhi                  | A+          |
+|  3 | Neha Sharma | 9988776655    | Mumbai, Maharashtra    | B+          |
+|  4 | Aman Gupta  | 9000011111    | Indore, Madhya Pradesh | AB+         |
+|  5 | Priya Patel | 9898989898    | Ahmedabad, Gujarat     | O-          |
+|  6 | Rohit Meena | 9765432109    | Kota, Rajasthan        | B-          |
++----+-------------+---------------+------------------------+-------------+
+
+
+update patient_details set name = "Abhay Singh" where id=1;
+select * from patient_details;
++----+-------------+---------------+------------------------+-------------+
+| id | name        | contact       | address                | blood_group |
++----+-------------+---------------+------------------------+-------------+
+|  1 | Abhay Singh | +919340056987 | Panna, Madhya Pradesh  | A+          |
+|  2 | Rahul Verma | 9123456789    | Delhi                  | A+          |
+|  3 | Neha Sharma | 9988776655    | Mumbai, Maharashtra    | B+          |
+|  4 | Aman Gupta  | 9000011111    | Indore, Madhya Pradesh | AB+         |
+|  5 | Priya Patel | 9898989898    | Ahmedabad, Gujarat     | O-          |
+|  6 | Rohit Meena | 9765432109    | Kota, Rajasthan        | B-          |
++----+-------------+---------------+------------------------+-------------+
+
+ select * from patient_details where contact = "9898989898";
++----+-------------+------------+--------------------+-------------+
+| id | name        | contact    | address            | blood_group |
++----+-------------+------------+--------------------+-------------+
+|  5 | Priya Patel | 9898989898 | Ahmedabad, Gujarat | O-          |
++----+-------------+------------+--------------------+-------------+
+
+update patient_details set contact = "+919898989898" where id = 5;
+
+select * from patient_details where id =5;
++----+-------------+---------------+--------------------+-------------+
+| id | name        | contact       | address            | blood_group |
++----+-------------+---------------+--------------------+-------------+
+|  5 | Priya Patel | +919898989898 | Ahmedabad, Gujarat | O-          |
++----+-------------+---------------+--------------------+-------------+
+
+select * from patient_details where name like "R%";
++----+-------------+------------+-----------------+-------------+
+| id | name        | contact    | address         | blood_group |
++----+-------------+------------+-----------------+-------------+
+|  2 | Rahul Verma | 9123456789 | Delhi           | A+          |
+|  6 | Rohit Meena | 9765432109 | Kota, Rajasthan | B-          |
++----+-------------+------------+-----------------+-------------+
+
+
+

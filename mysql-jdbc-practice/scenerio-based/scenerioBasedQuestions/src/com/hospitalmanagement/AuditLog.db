@@ -1,0 +1,137 @@
+🔹 Create Audit Log Table
+CREATE TABLE audit_log (
+    audit_id INT AUTO_INCREMENT PRIMARY KEY,
+    table_name VARCHAR(50),
+    operation VARCHAR(10),
+    record_id INT,
+    user_name VARCHAR(50),
+    action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+🔹 Insert Sample Audit Log Records (Manual / Initial Data)
+INSERT INTO audit_log (table_name, operation, record_id, user_name)
+VALUES ('doctor_management', 'UPDATE', 3, 'admin');
+
+INSERT INTO audit_log (table_name, operation, record_id, user_name)
+VALUES
+('appointments', 'INSERT', 5, 'receptionist'),
+('bills', 'UPDATE', 2, 'receptionist'),
+('visits', 'INSERT', 4, 'doctor'),
+('specialties', 'UPDATE', 1, 'admin'),
+('appointments', 'DELETE', 6, 'admin');
+
+
+🔹 View All Audit Logs
+SELECT * FROM audit_log;
++----------+-------------------+-----------+-----------+--------------+---------------------+
+| audit_id | table_name        | operation | record_id | user_name    | action_time         |
++----------+-------------------+-----------+-----------+--------------+---------------------+
+|        1 | doctor_management | UPDATE    |         3 | admin        | 2026-02-09 13:08:15 |
+|        2 | appointments      | INSERT    |         5 | receptionist | 2026-02-09 13:08:15 |
+|        3 | bills             | UPDATE    |         2 | receptionist | 2026-02-09 13:08:15 |
+|        4 | visits            | INSERT    |         4 | doctor       | 2026-02-09 13:08:15 |
+|        5 | specialties       | UPDATE    |         1 | admin        | 2026-02-09 13:08:15 |
+|        6 | appointments      | DELETE    |         6 | admin        | 2026-02-09 13:08:15 |
++----------+-------------------+-----------+-----------+--------------+---------------------+
+
+🔹 UC-6.3: View Audit Logs by User (Administrator)
+SELECT *
+FROM audit_log
+WHERE user_name = 'admin';
+
++----------+-------------------+-----------+-----------+-----------+---------------------+
+| audit_id | table_name        | operation | record_id | user_name | action_time         |
++----------+-------------------+-----------+-----------+-----------+---------------------+
+|        1 | doctor_management | UPDATE    |         3 | admin     | 2026-02-09 13:08:15 |
+|        5 | specialties       | UPDATE    |         1 | admin     | 2026-02-09 13:08:15 |
+|        6 | appointments      | DELETE    |         6 | admin     | 2026-02-09 13:08:15 |
++----------+-------------------+-----------+-----------+-----------+---------------------+
+
+🔹 View Audit Logs by Table Name
+SELECT *
+FROM audit_log
+WHERE table_name = 'appointments';
++----------+--------------+-----------+-----------+--------------+---------------------+
+| audit_id | table_name   | operation | record_id | user_name    | action_time         |
++----------+--------------+-----------+-----------+--------------+---------------------+
+|        2 | appointments | INSERT    |         5 | receptionist | 2026-02-09 13:08:15 |
+|        6 | appointments | DELETE    |         6 | admin        | 2026-02-09 13:08:15 |
++----------+--------------+-----------+-----------+--------------+---------------------+
+
+🔹 View Audit Logs in Date Range
+SELECT *
+FROM audit_log
+WHERE action_time BETWEEN '2026-02-01' AND NOW()
+ORDER BY action_time DESC;
++----------+-------------------+-----------+-----------+--------------+---------------------+
+| audit_id | table_name        | operation | record_id | user_name    | action_time         |
++----------+-------------------+-----------+-----------+--------------+---------------------+
+|        1 | doctor_management | UPDATE    |         3 | admin        | 2026-02-09 13:08:15 |
+|        2 | appointments      | INSERT    |         5 | receptionist | 2026-02-09 13:08:15 |
+|        3 | bills             | UPDATE    |         2 | receptionist | 2026-02-09 13:08:15 |
+|        4 | visits            | INSERT    |         4 | doctor       | 2026-02-09 13:08:15 |
+|        5 | specialties       | UPDATE    |         1 | admin        | 2026-02-09 13:08:15 |
+|        6 | appointments      | DELETE    |         6 | admin        | 2026-02-09 13:08:15 |
++----------+-------------------+-----------+-----------+--------------+---------------------+
+
+🔹 Create Trigger: Log INSERT on Patient Table
+DELIMITER $$
+
+CREATE TRIGGER trg_patient_insert
+AFTER INSERT ON patient_details
+FOR EACH ROW
+BEGIN
+    INSERT INTO audit_log (table_name, operation, record_id, user_name)
+    VALUES ('patient_details', 'INSERT', NEW.id, 'system');
+END$$
+
+DELIMITER ;
+
+🔹 Create Trigger: Log UPDATE on Doctor Table
+DELIMITER $$
+
+CREATE TRIGGER trg_doctor_update
+AFTER UPDATE ON doctor_management
+FOR EACH ROW
+BEGIN
+    INSERT INTO audit_log (table_name, operation, record_id, user_name)
+    VALUES ('doctor_management', 'UPDATE', NEW.id, 'admin');
+END$$
+
+DELIMITER ;
+
+🔹 Test Trigger (Verification Step)
+UPDATE doctor_management
+SET consultation_fee = 850
+WHERE id = 1;
+
+view all data 
+SELECT * FROM audit_log;
++----------+-------------------+-----------+-----------+--------------+---------------------+
+| audit_id | table_name        | operation | record_id | user_name    | action_time         |
++----------+-------------------+-----------+-----------+--------------+---------------------+
+|        1 | doctor_management | UPDATE    |         3 | admin        | 2026-02-09 13:08:15 |
+|        2 | appointments      | INSERT    |         5 | receptionist | 2026-02-09 13:08:15 |
+|        3 | bills             | UPDATE    |         2 | receptionist | 2026-02-09 13:08:15 |
+|        4 | visits            | INSERT    |         4 | doctor       | 2026-02-09 13:08:15 |
+|        5 | specialties       | UPDATE    |         1 | admin        | 2026-02-09 13:08:15 |
+|        6 | appointments      | DELETE    |         6 | admin        | 2026-02-09 13:08:15 |
+|        7 | doctor_management | UPDATE    |         1 | admin        | 2026-02-09 14:46:35 |
++----------+-------------------+-----------+-----------+--------------+---------------------+
+
+🔹 Final Verification
+SELECT audit_id, table_name, operation, user_name, action_time
+FROM audit_log
+ORDER BY action_time DESC;
++----------+-------------------+-----------+--------------+---------------------+
+| audit_id | table_name        | operation | user_name    | action_time         |
++----------+-------------------+-----------+--------------+---------------------+
+|        7 | doctor_management | UPDATE    | admin        | 2026-02-09 14:46:35 |
+|        1 | doctor_management | UPDATE    | admin        | 2026-02-09 13:08:15 |
+|        2 | appointments      | INSERT    | receptionist | 2026-02-09 13:08:15 |
+|        3 | bills             | UPDATE    | receptionist | 2026-02-09 13:08:15 |
+|        4 | visits            | INSERT    | doctor       | 2026-02-09 13:08:15 |
+|        5 | specialties       | UPDATE    | admin        | 2026-02-09 13:08:15 |
+|        6 | appointments      | DELETE    | admin        | 2026-02-09 13:08:15 |
++----------+-------------------+-----------+--------------+---------------------+
